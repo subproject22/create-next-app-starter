@@ -1,0 +1,20 @@
+{
+  "singleQuote": false,
+  "semi": false,
+  "plugins": [
+    "prettier-plugin-css-order",
+    "prettier-plugin-tailwindcss",
+    "@trivago/prettier-plugin-sort-imports"
+  ],
+  "cssDeclarationSorterOrder": "concentric-css",
+  "importOrder": [
+    "^react(.*)",
+    "^next(.*)",
+    "radix/(.*)",
+    "<THIRD_PARTY_MODULES>",
+    "@/components/(.*)$",
+    "@/(.*)",
+    "^[./]"
+  ],
+  "importOrderSeparation": true
+}

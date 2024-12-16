@@ -1,0 +1,104 @@
+@import "@radix-ui/colors/yellow.css";
+@import "@radix-ui/colors/yellow-alpha.css";
+@import "@radix-ui/colors/yellow-dark.css";
+@import "@radix-ui/colors/yellow-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/yellow.css */
+
+:root {
+  --yellow-contrast: #21201c; /* light mode sand 12 */
+}
+
+:root,
+.light,
+.light-theme {
+  --yellow-surface: #fefbe4cc;
+  --yellow-indicator: var(--yellow-10);
+  --yellow-track: var(--yellow-10);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --yellow-surface: color(display-p3 0.9961 0.9922 0.902 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --yellow-surface: #231f1380;
+  --yellow-indicator: var(--yellow-9);
+  --yellow-track: var(--yellow-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --yellow-surface: color(display-p3 0.1333 0.1176 0.0706 / 0.5);
+    }
+  }
+  @supports (color: color-mix(in oklab, white, black)) {
+    --yellow-track: color-mix(in oklab, var(--yellow-8), var(--yellow-9) 65%);
+  }
+}
+
+[data-primary="yellow"] {
+  --primary-1: var(--yellow-1);
+  --primary-2: var(--yellow-2);
+  --primary-3: var(--yellow-3);
+  --primary-4: var(--yellow-4);
+  --primary-5: var(--yellow-5);
+  --primary-6: var(--yellow-6);
+  --primary-7: var(--yellow-7);
+  --primary-8: var(--yellow-8);
+  --primary-9: var(--yellow-9);
+  --primary-10: var(--yellow-10);
+  --primary-11: var(--yellow-11);
+  --primary-12: var(--yellow-12);
+
+  --primary-a1: var(--yellow-a1);
+  --primary-a2: var(--yellow-a2);
+  --primary-a3: var(--yellow-a3);
+  --primary-a4: var(--yellow-a4);
+  --primary-a5: var(--yellow-a5);
+  --primary-a6: var(--yellow-a6);
+  --primary-a7: var(--yellow-a7);
+  --primary-a8: var(--yellow-a8);
+  --primary-a9: var(--yellow-a9);
+  --primary-a10: var(--yellow-a10);
+  --primary-a11: var(--yellow-a11);
+  --primary-a12: var(--yellow-a12);
+
+  --primary-contrast: var(--yellow-contrast);
+  --primary-surface: var(--yellow-surface);
+  --primary-indicator: var(--yellow-indicator);
+  --primary-track: var(--yellow-track);
+}
+
+[data-secondary="yellow"] {
+  --secondary-1: var(--yellow-1);
+  --secondary-2: var(--yellow-2);
+  --secondary-3: var(--yellow-3);
+  --secondary-4: var(--yellow-4);
+  --secondary-5: var(--yellow-5);
+  --secondary-6: var(--yellow-6);
+  --secondary-7: var(--yellow-7);
+  --secondary-8: var(--yellow-8);
+  --secondary-9: var(--yellow-9);
+  --secondary-10: var(--yellow-10);
+  --secondary-11: var(--yellow-11);
+  --secondary-12: var(--yellow-12);
+
+  --secondary-a1: var(--yellow-a1);
+  --secondary-a2: var(--yellow-a2);
+  --secondary-a3: var(--yellow-a3);
+  --secondary-a4: var(--yellow-a4);
+  --secondary-a5: var(--yellow-a5);
+  --secondary-a6: var(--yellow-a6);
+  --secondary-a7: var(--yellow-a7);
+  --secondary-a8: var(--yellow-a8);
+  --secondary-a9: var(--yellow-a9);
+  --secondary-a10: var(--yellow-a10);
+  --secondary-a11: var(--yellow-a11);
+  --secondary-a12: var(--yellow-a12);
+
+  --secondary-contrast: var(--yellow-contrast);
+  --secondary-surface: var(--yellow-surface);
+  --secondary-indicator: var(--yellow-indicator);
+  --secondary-track: var(--yellow-track);
+}

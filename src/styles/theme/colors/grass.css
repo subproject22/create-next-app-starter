@@ -1,0 +1,101 @@
+@import "@radix-ui/colors/grass.css";
+@import "@radix-ui/colors/grass-alpha.css";
+@import "@radix-ui/colors/grass-dark.css";
+@import "@radix-ui/colors/grass-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/grass.css */
+
+:root {
+  --grass-contrast: white;
+}
+
+:root,
+.light,
+.light-theme {
+  --grass-surface: #f3faf3cc;
+  --grass-indicator: var(--grass-9);
+  --grass-track: var(--grass-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --grass-surface: color(display-p3 0.9569 0.9804 0.9569 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --grass-surface: #19231b80;
+  --grass-indicator: var(--grass-9);
+  --grass-track: var(--grass-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --grass-surface: color(display-p3 0.102 0.1333 0.102 / 0.5);
+    }
+  }
+}
+
+[data-primary="grass"] {
+  --primary-1: var(--grass-1);
+  --primary-2: var(--grass-2);
+  --primary-3: var(--grass-3);
+  --primary-4: var(--grass-4);
+  --primary-5: var(--grass-5);
+  --primary-6: var(--grass-6);
+  --primary-7: var(--grass-7);
+  --primary-8: var(--grass-8);
+  --primary-9: var(--grass-9);
+  --primary-10: var(--grass-10);
+  --primary-11: var(--grass-11);
+  --primary-12: var(--grass-12);
+
+  --primary-a1: var(--grass-a1);
+  --primary-a2: var(--grass-a2);
+  --primary-a3: var(--grass-a3);
+  --primary-a4: var(--grass-a4);
+  --primary-a5: var(--grass-a5);
+  --primary-a6: var(--grass-a6);
+  --primary-a7: var(--grass-a7);
+  --primary-a8: var(--grass-a8);
+  --primary-a9: var(--grass-a9);
+  --primary-a10: var(--grass-a10);
+  --primary-a11: var(--grass-a11);
+  --primary-a12: var(--grass-a12);
+
+  --primary-contrast: var(--grass-contrast);
+  --primary-surface: var(--grass-surface);
+  --primary-indicator: var(--grass-indicator);
+  --primary-track: var(--grass-track);
+}
+
+[data-secondary="grass"] {
+  --secondary-1: var(--grass-1);
+  --secondary-2: var(--grass-2);
+  --secondary-3: var(--grass-3);
+  --secondary-4: var(--grass-4);
+  --secondary-5: var(--grass-5);
+  --secondary-6: var(--grass-6);
+  --secondary-7: var(--grass-7);
+  --secondary-8: var(--grass-8);
+  --secondary-9: var(--grass-9);
+  --secondary-10: var(--grass-10);
+  --secondary-11: var(--grass-11);
+  --secondary-12: var(--grass-12);
+
+  --secondary-a1: var(--grass-a1);
+  --secondary-a2: var(--grass-a2);
+  --secondary-a3: var(--grass-a3);
+  --secondary-a4: var(--grass-a4);
+  --secondary-a5: var(--grass-a5);
+  --secondary-a6: var(--grass-a6);
+  --secondary-a7: var(--grass-a7);
+  --secondary-a8: var(--grass-a8);
+  --secondary-a9: var(--grass-a9);
+  --secondary-a10: var(--grass-a10);
+  --secondary-a11: var(--grass-a11);
+  --secondary-a12: var(--grass-a12);
+
+  --secondary-contrast: var(--grass-contrast);
+  --secondary-surface: var(--grass-surface);
+  --secondary-indicator: var(--grass-indicator);
+  --secondary-track: var(--grass-track);
+}

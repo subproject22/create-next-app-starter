@@ -1,0 +1,107 @@
+@import "@radix-ui/colors/violet.css";
+@import "@radix-ui/colors/violet-alpha.css";
+@import "@radix-ui/colors/violet-dark.css";
+@import "@radix-ui/colors/violet-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/violet.css */
+
+:root {
+  --violet-contrast: white;
+}
+
+:root,
+.light,
+.light-theme {
+  --violet-surface: #f9f6ffcc;
+  --violet-indicator: var(--violet-9);
+  --violet-track: var(--violet-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --violet-surface: color(display-p3 0.9725 0.9647 0.9961 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --violet-surface: #25193980;
+  --violet-indicator: var(--violet-9);
+  --violet-track: var(--violet-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --violet-surface: color(display-p3 0.1333 0.102 0.2118 / 0.5);
+    }
+  }
+}
+
+/* [data-primary="violet"],
+[data-primary="violet"].light,
+[data-primary="violet"] .light,
+[data-primary="violet"].dark,
+[data-primary="violet"] .dark */
+
+[data-primary="violet"] {
+  --primary-1: var(--violet-1);
+  --primary-2: var(--violet-2);
+  --primary-3: var(--violet-3);
+  --primary-4: var(--violet-4);
+  --primary-5: var(--violet-5);
+  --primary-6: var(--violet-6);
+  --primary-7: var(--violet-7);
+  --primary-8: var(--violet-8);
+  --primary-9: var(--violet-9);
+  --primary-10: var(--violet-10);
+  --primary-11: var(--violet-11);
+  --primary-12: var(--violet-12);
+
+  --primary-a1: var(--violet-a1);
+  --primary-a2: var(--violet-a2);
+  --primary-a3: var(--violet-a3);
+  --primary-a4: var(--violet-a4);
+  --primary-a5: var(--violet-a5);
+  --primary-a6: var(--violet-a6);
+  --primary-a7: var(--violet-a7);
+  --primary-a8: var(--violet-a8);
+  --primary-a9: var(--violet-a9);
+  --primary-a10: var(--violet-a10);
+  --primary-a11: var(--violet-a11);
+  --primary-a12: var(--violet-a12);
+
+  --primary-contrast: var(--violet-contrast);
+  --primary-surface: var(--violet-surface);
+  --primary-indicator: var(--violet-indicator);
+  --primary-track: var(--violet-track);
+}
+
+[data-secondary="violet"] {
+  --secondary-1: var(--violet-1);
+  --secondary-2: var(--violet-2);
+  --secondary-3: var(--violet-3);
+  --secondary-4: var(--violet-4);
+  --secondary-5: var(--violet-5);
+  --secondary-6: var(--violet-6);
+  --secondary-7: var(--violet-7);
+  --secondary-8: var(--violet-8);
+  --secondary-9: var(--violet-9);
+  --secondary-10: var(--violet-10);
+  --secondary-11: var(--violet-11);
+  --secondary-12: var(--violet-12);
+
+  --secondary-a1: var(--violet-a1);
+  --secondary-a2: var(--violet-a2);
+  --secondary-a3: var(--violet-a3);
+  --secondary-a4: var(--violet-a4);
+  --secondary-a5: var(--violet-a5);
+  --secondary-a6: var(--violet-a6);
+  --secondary-a7: var(--violet-a7);
+  --secondary-a8: var(--violet-a8);
+  --secondary-a9: var(--violet-a9);
+  --secondary-a10: var(--violet-a10);
+  --secondary-a11: var(--violet-a11);
+  --secondary-a12: var(--violet-a12);
+
+  --secondary-contrast: var(--violet-contrast);
+  --secondary-surface: var(--violet-surface);
+  --secondary-indicator: var(--violet-indicator);
+  --secondary-track: var(--violet-track);
+}

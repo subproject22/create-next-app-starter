@@ -1,0 +1,72 @@
+@import "@radix-ui/colors/slate.css";
+@import "@radix-ui/colors/slate-alpha.css";
+@import "@radix-ui/colors/slate-dark.css";
+@import "@radix-ui/colors/slate-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/slate.css */
+
+:root {
+  --slate-contrast: white;
+}
+
+:root,
+.light,
+.light-theme {
+  --slate-surface: #ffffffcc;
+  --slate-indicator: var(--slate-9);
+  --slate-track: var(--slate-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --slate-surface: color(display-p3 1 1 1 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --slate-surface: #1f212380;
+  --slate-indicator: var(--slate-9);
+  --slate-track: var(--slate-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --slate-surface: color(display-p3 0.1176 0.1255 0.1333 / 0.5);
+    }
+  }
+}
+
+[data-surface="slate"] {
+  --surface-1: var(--slate-1);
+  --surface-2: var(--slate-2);
+  --surface-3: var(--slate-3);
+  --surface-4: var(--slate-4);
+  --surface-5: var(--slate-5);
+  --surface-6: var(--slate-6);
+  --surface-7: var(--slate-7);
+  --surface-8: var(--slate-8);
+  --surface-9: var(--slate-9);
+  --surface-10: var(--slate-10);
+  --surface-11: var(--slate-11);
+  --surface-12: var(--slate-12);
+
+  --surface-a1: var(--slate-a1);
+  --surface-a2: var(--slate-a2);
+  --surface-a3: var(--slate-a3);
+  --surface-a4: var(--slate-a4);
+  --surface-a5: var(--slate-a5);
+  --surface-a6: var(--slate-a6);
+  --surface-a7: var(--slate-a7);
+  --surface-a8: var(--slate-a8);
+  --surface-a9: var(--slate-a9);
+  --surface-a10: var(--slate-a10);
+  --surface-a11: var(--slate-a11);
+  --surface-a12: var(--slate-a12);
+
+  --surface-contrast: var(--slate-contrast);
+  --surface-surface: var(--slate-surface);
+  --surface-indicator: var(--slate-indicator);
+  --surface-track: var(--slate-track);
+
+  /* TODO: replace this with hack from ui.pub */
+  --border-color: var(--surface-a3);
+  --shadow-color: var(--surface-a2);
+}

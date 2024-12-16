@@ -1,0 +1,101 @@
+@import "@radix-ui/colors/green.css";
+@import "@radix-ui/colors/green-alpha.css";
+@import "@radix-ui/colors/green-dark.css";
+@import "@radix-ui/colors/green-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/green.css */
+
+:root {
+  --green-contrast: white;
+}
+
+:root,
+.light,
+.light-theme {
+  --green-surface: #f1faf4cc;
+  --green-indicator: var(--green-9);
+  --green-track: var(--green-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --green-surface: color(display-p3 0.9569 0.9804 0.9608 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --green-surface: #15251d80;
+  --green-indicator: var(--green-9);
+  --green-track: var(--green-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --green-surface: color(display-p3 0.0941 0.1412 0.1098 / 0.5);
+    }
+  }
+}
+
+[data-primary="green"] {
+  --primary-1: var(--green-1);
+  --primary-2: var(--green-2);
+  --primary-3: var(--green-3);
+  --primary-4: var(--green-4);
+  --primary-5: var(--green-5);
+  --primary-6: var(--green-6);
+  --primary-7: var(--green-7);
+  --primary-8: var(--green-8);
+  --primary-9: var(--green-9);
+  --primary-10: var(--green-10);
+  --primary-11: var(--green-11);
+  --primary-12: var(--green-12);
+
+  --primary-a1: var(--green-a1);
+  --primary-a2: var(--green-a2);
+  --primary-a3: var(--green-a3);
+  --primary-a4: var(--green-a4);
+  --primary-a5: var(--green-a5);
+  --primary-a6: var(--green-a6);
+  --primary-a7: var(--green-a7);
+  --primary-a8: var(--green-a8);
+  --primary-a9: var(--green-a9);
+  --primary-a10: var(--green-a10);
+  --primary-a11: var(--green-a11);
+  --primary-a12: var(--green-a12);
+
+  --primary-contrast: var(--green-contrast);
+  --primary-surface: var(--green-surface);
+  --primary-indicator: var(--green-indicator);
+  --primary-track: var(--green-track);
+}
+
+[data-secondary="green"] {
+  --secondary-1: var(--green-1);
+  --secondary-2: var(--green-2);
+  --secondary-3: var(--green-3);
+  --secondary-4: var(--green-4);
+  --secondary-5: var(--green-5);
+  --secondary-6: var(--green-6);
+  --secondary-7: var(--green-7);
+  --secondary-8: var(--green-8);
+  --secondary-9: var(--green-9);
+  --secondary-10: var(--green-10);
+  --secondary-11: var(--green-11);
+  --secondary-12: var(--green-12);
+
+  --secondary-a1: var(--green-a1);
+  --secondary-a2: var(--green-a2);
+  --secondary-a3: var(--green-a3);
+  --secondary-a4: var(--green-a4);
+  --secondary-a5: var(--green-a5);
+  --secondary-a6: var(--green-a6);
+  --secondary-a7: var(--green-a7);
+  --secondary-a8: var(--green-a8);
+  --secondary-a9: var(--green-a9);
+  --secondary-a10: var(--green-a10);
+  --secondary-a11: var(--green-a11);
+  --secondary-a12: var(--green-a12);
+
+  --secondary-contrast: var(--green-contrast);
+  --secondary-surface: var(--green-surface);
+  --secondary-indicator: var(--green-indicator);
+  --secondary-track: var(--green-track);
+}

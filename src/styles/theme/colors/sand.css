@@ -1,0 +1,83 @@
+@import "@radix-ui/colors/sand.css";
+@import "@radix-ui/colors/sand-alpha.css";
+@import "@radix-ui/colors/sand-dark.css";
+@import "@radix-ui/colors/sand-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/sand.css */
+
+:root {
+  --sand-contrast: white;
+}
+
+:root,
+.light,
+.light-theme {
+  --sand-surface: #ffffffcc;
+  --sand-indicator: var(--sand-9);
+  --sand-track: var(--sand-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --sand-surface: color(display-p3 1 1 1 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --sand-surface: #21212080;
+  --sand-indicator: var(--sand-9);
+  --sand-track: var(--sand-9);
+  /* TODO: this should be added on every color */
+  /* Coming from ui.pub Toast background issue */
+  --sand-backdrop: #171717e3;
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --sand-surface: color(display-p3 0.1255 0.1255 0.1255 / 0.5);
+      --sand-backdrop: color(display-p3 0.09 0.09 0.09 / 0.89);
+    }
+  }
+}
+
+/* [data-surface="sand"],
+[data-surface="sand"].light,
+[data-surface="sand"] .light,
+[data-surface="sand"].dark,
+[data-surface="sand"] .dark  */
+
+[data-surface="sand"] {
+  --surface-1: var(--sand-1);
+  --surface-2: var(--sand-2);
+  --surface-3: var(--sand-3);
+  --surface-4: var(--sand-4);
+  --surface-5: var(--sand-5);
+  --surface-6: var(--sand-6);
+  --surface-7: var(--sand-7);
+  --surface-8: var(--sand-8);
+  --surface-9: var(--sand-9);
+  --surface-10: var(--sand-10);
+  --surface-11: var(--sand-11);
+  --surface-12: var(--sand-12);
+
+  --surface-a1: var(--sand-a1);
+  --surface-a2: var(--sand-a2);
+  --surface-a3: var(--sand-a3);
+  --surface-a4: var(--sand-a4);
+  --surface-a5: var(--sand-a5);
+  --surface-a6: var(--sand-a6);
+  --surface-a7: var(--sand-a7);
+  --surface-a8: var(--sand-a8);
+  --surface-a9: var(--sand-a9);
+  --surface-a10: var(--sand-a10);
+  --surface-a11: var(--sand-a11);
+  --surface-a12: var(--sand-a12);
+
+  --surface-contrast: var(--sand-contrast);
+  --surface-surface: var(--sand-surface);
+  --surface-indicator: var(--sand-indicator);
+  --surface-track: var(--sand-track);
+  --surface-backdrop: var(--sand-backdrop);
+
+  /* TODO: replace this with hack from ui.pub */
+  --border-color: var(--surface-a3);
+  --shadow-color: var(--surface-a2);
+}

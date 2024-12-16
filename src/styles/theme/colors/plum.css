@@ -1,0 +1,101 @@
+@import "@radix-ui/colors/plum.css";
+@import "@radix-ui/colors/plum-alpha.css";
+@import "@radix-ui/colors/plum-dark.css";
+@import "@radix-ui/colors/plum-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/plum.css */
+
+:root {
+  --plum-contrast: white;
+}
+
+:root,
+.light,
+.light-theme {
+  --plum-surface: #fdf5fdcc;
+  --plum-indicator: var(--plum-9);
+  --plum-track: var(--plum-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --plum-surface: color(display-p3 0.9843 0.9647 0.9843 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --plum-surface: #2f152f80;
+  --plum-indicator: var(--plum-9);
+  --plum-track: var(--plum-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --plum-surface: color(display-p3 0.1647 0.0863 0.1725 / 0.5);
+    }
+  }
+}
+
+[data-primary="plum"] {
+  --primary-1: var(--plum-1);
+  --primary-2: var(--plum-2);
+  --primary-3: var(--plum-3);
+  --primary-4: var(--plum-4);
+  --primary-5: var(--plum-5);
+  --primary-6: var(--plum-6);
+  --primary-7: var(--plum-7);
+  --primary-8: var(--plum-8);
+  --primary-9: var(--plum-9);
+  --primary-10: var(--plum-10);
+  --primary-11: var(--plum-11);
+  --primary-12: var(--plum-12);
+
+  --primary-a1: var(--plum-a1);
+  --primary-a2: var(--plum-a2);
+  --primary-a3: var(--plum-a3);
+  --primary-a4: var(--plum-a4);
+  --primary-a5: var(--plum-a5);
+  --primary-a6: var(--plum-a6);
+  --primary-a7: var(--plum-a7);
+  --primary-a8: var(--plum-a8);
+  --primary-a9: var(--plum-a9);
+  --primary-a10: var(--plum-a10);
+  --primary-a11: var(--plum-a11);
+  --primary-a12: var(--plum-a12);
+
+  --primary-contrast: var(--plum-contrast);
+  --primary-surface: var(--plum-surface);
+  --primary-indicator: var(--plum-indicator);
+  --primary-track: var(--plum-track);
+}
+
+[data-secondary="plum"] {
+  --secondary-1: var(--plum-1);
+  --secondary-2: var(--plum-2);
+  --secondary-3: var(--plum-3);
+  --secondary-4: var(--plum-4);
+  --secondary-5: var(--plum-5);
+  --secondary-6: var(--plum-6);
+  --secondary-7: var(--plum-7);
+  --secondary-8: var(--plum-8);
+  --secondary-9: var(--plum-9);
+  --secondary-10: var(--plum-10);
+  --secondary-11: var(--plum-11);
+  --secondary-12: var(--plum-12);
+
+  --secondary-a1: var(--plum-a1);
+  --secondary-a2: var(--plum-a2);
+  --secondary-a3: var(--plum-a3);
+  --secondary-a4: var(--plum-a4);
+  --secondary-a5: var(--plum-a5);
+  --secondary-a6: var(--plum-a6);
+  --secondary-a7: var(--plum-a7);
+  --secondary-a8: var(--plum-a8);
+  --secondary-a9: var(--plum-a9);
+  --secondary-a10: var(--plum-a10);
+  --secondary-a11: var(--plum-a11);
+  --secondary-a12: var(--plum-a12);
+
+  --secondary-contrast: var(--plum-contrast);
+  --secondary-surface: var(--plum-surface);
+  --secondary-indicator: var(--plum-indicator);
+  --secondary-track: var(--plum-track);
+}

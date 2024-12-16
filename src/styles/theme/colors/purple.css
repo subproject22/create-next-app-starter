@@ -1,0 +1,101 @@
+@import "@radix-ui/colors/purple.css";
+@import "@radix-ui/colors/purple-alpha.css";
+@import "@radix-ui/colors/purple-dark.css";
+@import "@radix-ui/colors/purple-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/purple.css */
+
+:root {
+  --purple-contrast: white;
+}
+
+:root,
+.light,
+.light-theme {
+  --purple-surface: #faf5fecc;
+  --purple-indicator: var(--purple-9);
+  --purple-track: var(--purple-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --purple-surface: color(display-p3 0.9804 0.9647 0.9922 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --purple-surface: #2b173580;
+  --purple-indicator: var(--purple-9);
+  --purple-track: var(--purple-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --purple-surface: color(display-p3 0.149 0.0941 0.1961 / 0.5);
+    }
+  }
+}
+
+[data-primary="purple"] {
+  --primary-1: var(--purple-1);
+  --primary-2: var(--purple-2);
+  --primary-3: var(--purple-3);
+  --primary-4: var(--purple-4);
+  --primary-5: var(--purple-5);
+  --primary-6: var(--purple-6);
+  --primary-7: var(--purple-7);
+  --primary-8: var(--purple-8);
+  --primary-9: var(--purple-9);
+  --primary-10: var(--purple-10);
+  --primary-11: var(--purple-11);
+  --primary-12: var(--purple-12);
+
+  --primary-a1: var(--purple-a1);
+  --primary-a2: var(--purple-a2);
+  --primary-a3: var(--purple-a3);
+  --primary-a4: var(--purple-a4);
+  --primary-a5: var(--purple-a5);
+  --primary-a6: var(--purple-a6);
+  --primary-a7: var(--purple-a7);
+  --primary-a8: var(--purple-a8);
+  --primary-a9: var(--purple-a9);
+  --primary-a10: var(--purple-a10);
+  --primary-a11: var(--purple-a11);
+  --primary-a12: var(--purple-a12);
+
+  --primary-contrast: var(--purple-contrast);
+  --primary-surface: var(--purple-surface);
+  --primary-indicator: var(--purple-indicator);
+  --primary-track: var(--purple-track);
+}
+
+[data-secondary="purple"] {
+  --secondary-1: var(--purple-1);
+  --secondary-2: var(--purple-2);
+  --secondary-3: var(--purple-3);
+  --secondary-4: var(--purple-4);
+  --secondary-5: var(--purple-5);
+  --secondary-6: var(--purple-6);
+  --secondary-7: var(--purple-7);
+  --secondary-8: var(--purple-8);
+  --secondary-9: var(--purple-9);
+  --secondary-10: var(--purple-10);
+  --secondary-11: var(--purple-11);
+  --secondary-12: var(--purple-12);
+
+  --secondary-a1: var(--purple-a1);
+  --secondary-a2: var(--purple-a2);
+  --secondary-a3: var(--purple-a3);
+  --secondary-a4: var(--purple-a4);
+  --secondary-a5: var(--purple-a5);
+  --secondary-a6: var(--purple-a6);
+  --secondary-a7: var(--purple-a7);
+  --secondary-a8: var(--purple-a8);
+  --secondary-a9: var(--purple-a9);
+  --secondary-a10: var(--purple-a10);
+  --secondary-a11: var(--purple-a11);
+  --secondary-a12: var(--purple-a12);
+
+  --secondary-contrast: var(--purple-contrast);
+  --secondary-surface: var(--purple-surface);
+  --secondary-indicator: var(--purple-indicator);
+  --secondary-track: var(--purple-track);
+}

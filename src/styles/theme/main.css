@@ -1,0 +1,43 @@
+@import "./typography.css";
+@import "./colors.css";
+@import "./radius.css";
+@import "./variants.css";
+@import "./browser.css";
+
+:root {
+  --scrollbar-width: 16px;
+  --scrollbar-height: 16px;
+  --fill-available: -webkit-fill-available;
+  --safe-area-inset-top: env(safe-area-inset-top);
+  --safe-area-inset-bottom: env(safe-area-inset-bottom);
+  --selection-background-color: var(--primary-3);
+  --selection-color: var(--primary-11);
+}
+
+html,
+body {
+  overscroll-behavior: none; /* disable rubber band */
+}
+
+html {
+  height: 100dvh;
+  touch-action: manipulation;
+}
+
+body {
+  background-color: var(--surface-1);
+  color: var(--surface-12);
+  /* font-family: var(--font-sans); */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 360px;
+  overflow-x: hidden;
+  font-synthesis: none;
+  font-feature-settings:
+    "liga" on,
+    "dlig" on,
+    "rlig" on,
+    "calt" off;
+  /* letter-spacing: 0.02em; */
+  /* -webkit-overflow-scrolling: touch; TODO: re-enable momentum scrolling on iOS */
+}

@@ -1,0 +1,101 @@
+@import "@radix-ui/colors/teal.css";
+@import "@radix-ui/colors/teal-alpha.css";
+@import "@radix-ui/colors/teal-dark.css";
+@import "@radix-ui/colors/teal-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/teal.css */
+
+:root {
+  --teal-contrast: white;
+}
+
+:root,
+.light,
+.light-theme {
+  --teal-surface: #f0faf8cc;
+  --teal-indicator: var(--teal-9);
+  --teal-track: var(--teal-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --teal-surface: color(display-p3 0.9451 0.9804 0.9725 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --teal-surface: #13272580;
+  --teal-indicator: var(--teal-9);
+  --teal-track: var(--teal-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --teal-surface: color(display-p3 0.0863 0.149 0.1412 / 0.5);
+    }
+  }
+}
+
+[data-primary="teal"] {
+  --primary-1: var(--teal-1);
+  --primary-2: var(--teal-2);
+  --primary-3: var(--teal-3);
+  --primary-4: var(--teal-4);
+  --primary-5: var(--teal-5);
+  --primary-6: var(--teal-6);
+  --primary-7: var(--teal-7);
+  --primary-8: var(--teal-8);
+  --primary-9: var(--teal-9);
+  --primary-10: var(--teal-10);
+  --primary-11: var(--teal-11);
+  --primary-12: var(--teal-12);
+
+  --primary-a1: var(--teal-a1);
+  --primary-a2: var(--teal-a2);
+  --primary-a3: var(--teal-a3);
+  --primary-a4: var(--teal-a4);
+  --primary-a5: var(--teal-a5);
+  --primary-a6: var(--teal-a6);
+  --primary-a7: var(--teal-a7);
+  --primary-a8: var(--teal-a8);
+  --primary-a9: var(--teal-a9);
+  --primary-a10: var(--teal-a10);
+  --primary-a11: var(--teal-a11);
+  --primary-a12: var(--teal-a12);
+
+  --primary-contrast: var(--teal-contrast);
+  --primary-surface: var(--teal-surface);
+  --primary-indicator: var(--teal-indicator);
+  --primary-track: var(--teal-track);
+}
+
+[data-secondary="teal"] {
+  --secondary-1: var(--teal-1);
+  --secondary-2: var(--teal-2);
+  --secondary-3: var(--teal-3);
+  --secondary-4: var(--teal-4);
+  --secondary-5: var(--teal-5);
+  --secondary-6: var(--teal-6);
+  --secondary-7: var(--teal-7);
+  --secondary-8: var(--teal-8);
+  --secondary-9: var(--teal-9);
+  --secondary-10: var(--teal-10);
+  --secondary-11: var(--teal-11);
+  --secondary-12: var(--teal-12);
+
+  --secondary-a1: var(--teal-a1);
+  --secondary-a2: var(--teal-a2);
+  --secondary-a3: var(--teal-a3);
+  --secondary-a4: var(--teal-a4);
+  --secondary-a5: var(--teal-a5);
+  --secondary-a6: var(--teal-a6);
+  --secondary-a7: var(--teal-a7);
+  --secondary-a8: var(--teal-a8);
+  --secondary-a9: var(--teal-a9);
+  --secondary-a10: var(--teal-a10);
+  --secondary-a11: var(--teal-a11);
+  --secondary-a12: var(--teal-a12);
+
+  --secondary-contrast: var(--teal-contrast);
+  --secondary-surface: var(--teal-surface);
+  --secondary-indicator: var(--teal-indicator);
+  --secondary-track: var(--teal-track);
+}

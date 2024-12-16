@@ -1,0 +1,104 @@
+@import "@radix-ui/colors/mint.css";
+@import "@radix-ui/colors/mint-alpha.css";
+@import "@radix-ui/colors/mint-dark.css";
+@import "@radix-ui/colors/mint-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/mint.css */
+
+:root {
+  --mint-contrast: #1a211e; /* light mode sage 12 */
+}
+
+:root,
+.light,
+.light-theme {
+  --mint-surface: #effaf8cc;
+  --mint-indicator: var(--mint-9);
+  --mint-track: var(--mint-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --mint-surface: color(display-p3 0.9451 0.9804 0.9725 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --mint-surface: #15272780;
+  --mint-indicator: var(--mint-9);
+  --mint-track: var(--mint-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --mint-surface: color(display-p3 0.0941 0.149 0.1412 / 0.5);
+    }
+  }
+  @supports (color: color-mix(in oklab, white, black)) {
+    --mint-track: color-mix(in oklab, var(--mint-8), var(--mint-9) 65%);
+  }
+}
+
+[data-primary="mint"] {
+  --primary-1: var(--mint-1);
+  --primary-2: var(--mint-2);
+  --primary-3: var(--mint-3);
+  --primary-4: var(--mint-4);
+  --primary-5: var(--mint-5);
+  --primary-6: var(--mint-6);
+  --primary-7: var(--mint-7);
+  --primary-8: var(--mint-8);
+  --primary-9: var(--mint-9);
+  --primary-10: var(--mint-10);
+  --primary-11: var(--mint-11);
+  --primary-12: var(--mint-12);
+
+  --primary-a1: var(--mint-a1);
+  --primary-a2: var(--mint-a2);
+  --primary-a3: var(--mint-a3);
+  --primary-a4: var(--mint-a4);
+  --primary-a5: var(--mint-a5);
+  --primary-a6: var(--mint-a6);
+  --primary-a7: var(--mint-a7);
+  --primary-a8: var(--mint-a8);
+  --primary-a9: var(--mint-a9);
+  --primary-a10: var(--mint-a10);
+  --primary-a11: var(--mint-a11);
+  --primary-a12: var(--mint-a12);
+
+  --primary-contrast: var(--mint-contrast);
+  --primary-surface: var(--mint-surface);
+  --primary-indicator: var(--mint-indicator);
+  --primary-track: var(--mint-track);
+}
+
+[data-secondary="mint"] {
+  --secondary-1: var(--mint-1);
+  --secondary-2: var(--mint-2);
+  --secondary-3: var(--mint-3);
+  --secondary-4: var(--mint-4);
+  --secondary-5: var(--mint-5);
+  --secondary-6: var(--mint-6);
+  --secondary-7: var(--mint-7);
+  --secondary-8: var(--mint-8);
+  --secondary-9: var(--mint-9);
+  --secondary-10: var(--mint-10);
+  --secondary-11: var(--mint-11);
+  --secondary-12: var(--mint-12);
+
+  --secondary-a1: var(--mint-a1);
+  --secondary-a2: var(--mint-a2);
+  --secondary-a3: var(--mint-a3);
+  --secondary-a4: var(--mint-a4);
+  --secondary-a5: var(--mint-a5);
+  --secondary-a6: var(--mint-a6);
+  --secondary-a7: var(--mint-a7);
+  --secondary-a8: var(--mint-a8);
+  --secondary-a9: var(--mint-a9);
+  --secondary-a10: var(--mint-a10);
+  --secondary-a11: var(--mint-a11);
+  --secondary-a12: var(--mint-a12);
+
+  --secondary-contrast: var(--mint-contrast);
+  --secondary-surface: var(--mint-surface);
+  --secondary-indicator: var(--mint-indicator);
+  --secondary-track: var(--mint-track);
+}

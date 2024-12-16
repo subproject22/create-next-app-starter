@@ -1,0 +1,361 @@
+:root,
+.light,
+.light-theme {
+  --contrast-1: #fcfcfc;
+  --contrast-2: #f9f9f9;
+  --contrast-3: #f0f0f0;
+  --contrast-4: #e8e8e8;
+  --contrast-5: #e1e1e1;
+  --contrast-6: #d9d9d9;
+  --contrast-7: #cecece;
+  --contrast-8: #bbb;
+  --contrast-9: #000;
+  --contrast-10: #2e2e2e;
+  --contrast-11: #636363;
+  --contrast-12: #1f1f1f;
+
+  --contrast-a1: #00000003;
+  --contrast-a2: #00000006;
+  --contrast-a3: #0000000f;
+  --contrast-a4: #00000017;
+  --contrast-a5: #0000001e;
+  --contrast-a6: #00000026;
+  --contrast-a7: #00000031;
+  --contrast-a8: #00000044;
+  --contrast-a9: #000000;
+  --contrast-a10: #000000d1;
+  --contrast-a11: #0000009c;
+  --contrast-a12: #000000e0;
+
+  --contrast-contrast: #fff;
+  --contrast-surface: #f8f8f8cc;
+  --contrast-indicator: #000;
+  --contrast-track: #000;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root,
+    .light,
+    .light-theme {
+      --contrast-1: oklch(99.2% 0 none);
+      --contrast-2: oklch(98.1% 0 none);
+      --contrast-3: oklch(95.5% 0 none);
+      --contrast-4: oklch(93.1% 0 none);
+      --contrast-5: oklch(90.9% 0 none);
+      --contrast-6: oklch(88.5% 0 none);
+      --contrast-7: oklch(85.1% 0 none);
+      --contrast-8: oklch(79.2% 0 none);
+      --contrast-9: oklch(0% 0 none);
+      --contrast-10: oklch(30% 0 none);
+      --contrast-11: oklch(50.1% 0 none);
+      --contrast-12: oklch(24% 0 none);
+
+      --contrast-a1: color(display-p3 0 0 0 / 0.0118);
+      --contrast-a2: color(display-p3 0 0 0 / 0.0235);
+      --contrast-a3: color(display-p3 0 0 0 / 0.0588);
+      --contrast-a4: color(display-p3 0 0 0 / 0.0902);
+      --contrast-a5: color(display-p3 0 0 0 / 0.1176);
+      --contrast-a6: color(display-p3 0 0 0 / 0.149);
+      --contrast-a7: color(display-p3 0 0 0 / 0.1922);
+      --contrast-a8: color(display-p3 0 0 0 / 0.2667);
+      --contrast-a9: color(display-p3 0 0 0);
+      --contrast-a10: color(display-p3 0 0 0 / 0.8196);
+      --contrast-a11: color(display-p3 0 0 0 / 0.6118);
+      --contrast-a12: color(display-p3 0 0 0 / 0.8784);
+
+      --contrast-contrast: #fff;
+      --contrast-surface: color(display-p3 0.9725 0.9725 0.9725 / 0.8);
+      --contrast-indicator: oklch(0% 0 none);
+      --contrast-track: oklch(0% 0 none);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --contrast-1: #000;
+  --contrast-2: #121212;
+  --contrast-3: #1f1f1f;
+  --contrast-4: #282828;
+  --contrast-5: #303030;
+  --contrast-6: #3a3a3a;
+  --contrast-7: #474747;
+  --contrast-8: #606060;
+  --contrast-9: #fff;
+  --contrast-10: #f6f6f6;
+  --contrast-11: #b3b3b3;
+  --contrast-12: #eee;
+
+  --contrast-a1: #00000000;
+  --contrast-a2: #ffffff12;
+  --contrast-a3: #ffffff1f;
+  --contrast-a4: #ffffff28;
+  --contrast-a5: #ffffff30;
+  --contrast-a6: #ffffff3a;
+  --contrast-a7: #ffffff47;
+  --contrast-a8: #ffffff60;
+  --contrast-a9: #ffffff;
+  --contrast-a10: #fffffff6;
+  --contrast-a11: #ffffffb3;
+  --contrast-a12: #ffffffee;
+
+  --contrast-contrast: #000000;
+  --contrast-surface: #24242480;
+  --contrast-indicator: #fff;
+  --contrast-track: #fff;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    .dark,
+    .dark-theme {
+      --contrast-1: oklch(0% 0 none);
+      --contrast-2: oklch(18.3% 0 none);
+      --contrast-3: oklch(23.9% 0 none);
+      --contrast-4: oklch(27.5% 0 none);
+      --contrast-5: oklch(30.8% 0 none);
+      --contrast-6: oklch(34.7% 0 none);
+      --contrast-7: oklch(40% 0 none);
+      --contrast-8: oklch(49% 0 none);
+      --contrast-9: oklch(100% 0 none);
+      --contrast-10: oklch(97.3% 0 none);
+      --contrast-11: oklch(76.7% 0 none);
+      --contrast-12: oklch(94.8% 0 none);
+
+      --contrast-a1: color(display-p3 0 0 0 / 0);
+      --contrast-a2: color(display-p3 1 1 1 / 0.0706);
+      --contrast-a3: color(display-p3 1 1 1 / 0.1216);
+      --contrast-a4: color(display-p3 1 1 1 / 0.1569);
+      --contrast-a5: color(display-p3 1 1 1 / 0.1882);
+      --contrast-a6: color(display-p3 1 1 1 / 0.2275);
+      --contrast-a7: color(display-p3 1 1 1 / 0.2784);
+      --contrast-a8: color(display-p3 1 1 1 / 0.3765);
+      --contrast-a9: color(display-p3 1 1 1);
+      --contrast-a10: color(display-p3 1 1 1 / 0.9647);
+      --contrast-a11: color(display-p3 1 1 1 / 0.702);
+      --contrast-a12: color(display-p3 1 1 1 / 0.9333);
+
+      --contrast-contrast: #000000;
+      --contrast-surface: color(display-p3 0.1412 0.1412 0.1412 / 0.5);
+      --contrast-indicator: oklch(100% 0 none);
+      --contrast-track: oklch(100% 0 none);
+    }
+  }
+}
+
+:root,
+.light,
+.light-theme {
+  --contrast-surface-1: #ffffff;
+  --contrast-surface-2: #f9f9f9;
+  --contrast-surface-3: #f0f0f0;
+  --contrast-surface-4: #e8e8e8;
+  --contrast-surface-5: #e1e1e1;
+  --contrast-surface-6: #d9d9d9;
+  --contrast-surface-7: #cecece;
+  --contrast-surface-8: #bbb;
+  --contrast-surface-9: #8c8c8c;
+  --contrast-surface-10: #818181;
+  --contrast-surface-11: #636363;
+  --contrast-surface-12: #1f1f1f;
+
+  --contrast-surface-a1: #00000003;
+  --contrast-surface-a2: #00000006;
+  --contrast-surface-a3: #0000000f;
+  --contrast-surface-a4: #00000017;
+  --contrast-surface-a5: #0000001e;
+  --contrast-surface-a6: #00000026;
+  --contrast-surface-a7: #00000031;
+  --contrast-surface-a8: #00000044;
+  --contrast-surface-a9: #00000073;
+  --contrast-surface-a10: #0000007e;
+  --contrast-surface-a11: #0000009c;
+  --contrast-surface-a12: #000000e0;
+
+  --contrast-surface-contrast: #ffffff;
+  --contrast-surface-surface: #ffffffcc;
+  --contrast-surface-indicator: #8c8c8c;
+  --contrast-surface-track: #8c8c8c;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root,
+    .light,
+    .light-theme {
+      --contrast-surface-1: oklch(100% 0 none);
+      --contrast-surface-2: oklch(98.1% 0 none);
+      --contrast-surface-3: oklch(95.5% 0 none);
+      --contrast-surface-4: oklch(93.1% 0 none);
+      --contrast-surface-5: oklch(90.9% 0 none);
+      --contrast-surface-6: oklch(88.5% 0 none);
+      --contrast-surface-7: oklch(85.1% 0 none);
+      --contrast-surface-8: oklch(79.2% 0 none);
+      --contrast-surface-9: oklch(63.9% 0 none);
+      --contrast-surface-10: oklch(60.5% 0 none);
+      --contrast-surface-11: oklch(50.1% 0 none);
+      --contrast-surface-12: oklch(24% 0 none);
+
+      --contrast-surface-a1: color(display-p3 0 0 0 / 0.0118);
+      --contrast-surface-a2: color(display-p3 0 0 0 / 0.0235);
+      --contrast-surface-a3: color(display-p3 0 0 0 / 0.0588);
+      --contrast-surface-a4: color(display-p3 0 0 0 / 0.0902);
+      --contrast-surface-a5: color(display-p3 0 0 0 / 0.1176);
+      --contrast-surface-a6: color(display-p3 0 0 0 / 0.149);
+      --contrast-surface-a7: color(display-p3 0 0 0 / 0.1922);
+      --contrast-surface-a8: color(display-p3 0 0 0 / 0.2667);
+      --contrast-surface-a9: color(display-p3 0 0 0 / 0.451);
+      --contrast-surface-a10: color(display-p3 0 0 0 / 0.4941);
+      --contrast-surface-a11: color(display-p3 0 0 0 / 0.6118);
+      --contrast-surface-a12: color(display-p3 0 0 0 / 0.8784);
+
+      --contrast-surface-contrast: #ffffff;
+      --contrast-surface-surface: color(display-p3 1 1 1 / 80%);
+      --contrast-surface-indicator: oklch(63.9% 0 none);
+      --contrast-surface-track: oklch(63.9% 0 none);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --contrast-surface-1: #000;
+  --contrast-surface-2: #121212;
+  --contrast-surface-3: #1f1f1f;
+  --contrast-surface-4: #282828;
+  --contrast-surface-5: #303030;
+  --contrast-surface-6: #3a3a3a;
+  --contrast-surface-7: #474747;
+  --contrast-surface-8: #606060;
+  --contrast-surface-9: #6d6d6d;
+  --contrast-surface-10: #7a7a7a;
+  --contrast-surface-11: #b3b3b3;
+  --contrast-surface-12: #eee;
+
+  --contrast-surface-a1: #00000000;
+  --contrast-surface-a2: #ffffff12;
+  --contrast-surface-a3: #ffffff1f;
+  --contrast-surface-a4: #ffffff28;
+  --contrast-surface-a5: #ffffff30;
+  --contrast-surface-a6: #ffffff3a;
+  --contrast-surface-a7: #ffffff47;
+  --contrast-surface-a8: #ffffff60;
+  --contrast-surface-a9: #ffffff6d;
+  --contrast-surface-a10: #ffffff7a;
+  --contrast-surface-a11: #ffffffb3;
+  --contrast-surface-a12: #ffffffee;
+
+  --contrast-surface-contrast: #ffffff;
+  --contrast-surface-surface: rgba(0, 0, 0, 0.05);
+  --contrast-surface-indicator: #6d6d6d;
+  --contrast-surface-track: #6d6d6d;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    .dark,
+    .dark-theme {
+      --contrast-surface-1: oklch(0% 0 none);
+      --contrast-surface-2: oklch(18.3% 0 none);
+      --contrast-surface-3: oklch(23.9% 0 none);
+      --contrast-surface-4: oklch(27.5% 0 none);
+      --contrast-surface-5: oklch(30.8% 0 none);
+      --contrast-surface-6: oklch(34.7% 0 none);
+      --contrast-surface-7: oklch(40% 0 none);
+      --contrast-surface-8: oklch(49% 0 none);
+      --contrast-surface-9: oklch(53.4% 0 none);
+      --contrast-surface-10: oklch(58.1% 0 none);
+      --contrast-surface-11: oklch(76.7% 0 none);
+      --contrast-surface-12: oklch(94.8% 0 none);
+
+      --contrast-surface-a1: color(display-p3 0 0 0 / 0);
+      --contrast-surface-a2: color(display-p3 1 1 1 / 0.0706);
+      --contrast-surface-a3: color(display-p3 1 1 1 / 0.1216);
+      --contrast-surface-a4: color(display-p3 1 1 1 / 0.1569);
+      --contrast-surface-a5: color(display-p3 1 1 1 / 0.1882);
+      --contrast-surface-a6: color(display-p3 1 1 1 / 0.2275);
+      --contrast-surface-a7: color(display-p3 1 1 1 / 0.2784);
+      --contrast-surface-a8: color(display-p3 1 1 1 / 0.3765);
+      --contrast-surface-a9: color(display-p3 1 1 1 / 0.4275);
+      --contrast-surface-a10: color(display-p3 1 1 1 / 0.4784);
+      --contrast-surface-a11: color(display-p3 1 1 1 / 0.702);
+      --contrast-surface-a12: color(display-p3 1 1 1 / 0.9333);
+
+      --contrast-surface-contrast: #ffffff;
+      --contrast-surface-surface: color(display-p3 0 0 0 / 5%);
+      --contrast-surface-indicator: oklch(53.4% 0 none);
+      --contrast-surface-track: oklch(53.4% 0 none);
+    }
+  }
+}
+
+[data-primary="contrast"] {
+  --primary-1: var(--contrast-1);
+  --primary-2: var(--contrast-2);
+  --primary-3: var(--contrast-3);
+  --primary-4: var(--contrast-4);
+  --primary-5: var(--contrast-5);
+  --primary-6: var(--contrast-6);
+  --primary-7: var(--contrast-7);
+  --primary-8: var(--contrast-8);
+  --primary-9: var(--contrast-9);
+  --primary-10: var(--contrast-10);
+  --primary-11: var(--contrast-11);
+  --primary-12: var(--contrast-12);
+
+  --primary-a1: var(--contrast-a1);
+  --primary-a2: var(--contrast-a2);
+  --primary-a3: var(--contrast-a3);
+  --primary-a4: var(--contrast-a4);
+  --primary-a5: var(--contrast-a5);
+  --primary-a6: var(--contrast-a6);
+  --primary-a7: var(--contrast-a7);
+  --primary-a8: var(--contrast-a8);
+  --primary-a9: var(--contrast-a9);
+  --primary-a10: var(--contrast-a10);
+  --primary-a11: var(--contrast-a11);
+  --primary-a12: var(--contrast-a12);
+
+  --primary-contrast: var(--contrast-contrast);
+  --primary-surface: var(--contrast-surface);
+  --primary-indicator: var(--contrast-indicator);
+  --primary-track: var(--contrast-track);
+}
+
+[data-surface="contrast"] {
+  --surface-1: var(--contrast-surface-1);
+  --surface-2: var(--contrast-surface-2);
+  --surface-3: var(--contrast-surface-3);
+  --surface-4: var(--contrast-surface-4);
+  --surface-5: var(--contrast-surface-5);
+  --surface-6: var(--contrast-surface-6);
+  --surface-7: var(--contrast-surface-7);
+  --surface-8: var(--contrast-surface-8);
+  --surface-9: var(--contrast-surface-9);
+  --surface-10: var(--contrast-surface-10);
+  --surface-11: var(--contrast-surface-11);
+  --surface-12: var(--contrast-surface-12);
+
+  --surface-a1: var(--contrast-surface-a1);
+  --surface-a2: var(--contrast-surface-a2);
+  --surface-a3: var(--contrast-surface-a3);
+  --surface-a4: var(--contrast-surface-a4);
+  --surface-a5: var(--contrast-surface-a5);
+  --surface-a6: var(--contrast-surface-a6);
+  --surface-a7: var(--contrast-surface-a7);
+  --surface-a8: var(--contrast-surface-a8);
+  --surface-a9: var(--contrast-surface-a9);
+  --surface-a10: var(--contrast-surface-a10);
+  --surface-a11: var(--contrast-surface-a11);
+  --surface-a12: var(--contrast-surface-a12);
+
+  --surface-contrast: var(--contrast-surface-contrast);
+  --surface-surface: var(--contrast-surface-surface);
+  --surface-indicator: var(--contrast-surface-indicator);
+  --surface-track: var(--contrast-surface-track);
+  --surface-backdrop: var(--contrast-surface-backdrop);
+
+  --border-color: var(--surface-a3);
+  --shadow-color: var(--surface-a2);
+}

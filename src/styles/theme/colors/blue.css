@@ -1,0 +1,101 @@
+@import "@radix-ui/colors/blue.css";
+@import "@radix-ui/colors/blue-alpha.css";
+@import "@radix-ui/colors/blue-dark.css";
+@import "@radix-ui/colors/blue-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/blue.css */
+
+:root {
+  --blue-contrast: white;
+}
+
+:root,
+.light,
+.light-theme {
+  --blue-surface: #f1f9ffcc;
+  --blue-indicator: var(--blue-9);
+  --blue-track: var(--blue-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --blue-surface: color(display-p3 0.9529 0.9765 0.9961 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --blue-surface: #11213d80;
+  --blue-indicator: var(--blue-9);
+  --blue-track: var(--blue-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --blue-surface: color(display-p3 0.0706 0.1255 0.2196 / 0.5);
+    }
+  }
+}
+
+[data-primary="blue"] {
+  --primary-1: var(--blue-1);
+  --primary-2: var(--blue-2);
+  --primary-3: var(--blue-3);
+  --primary-4: var(--blue-4);
+  --primary-5: var(--blue-5);
+  --primary-6: var(--blue-6);
+  --primary-7: var(--blue-7);
+  --primary-8: var(--blue-8);
+  --primary-9: var(--blue-9);
+  --primary-10: var(--blue-10);
+  --primary-11: var(--blue-11);
+  --primary-12: var(--blue-12);
+
+  --primary-a1: var(--blue-a1);
+  --primary-a2: var(--blue-a2);
+  --primary-a3: var(--blue-a3);
+  --primary-a4: var(--blue-a4);
+  --primary-a5: var(--blue-a5);
+  --primary-a6: var(--blue-a6);
+  --primary-a7: var(--blue-a7);
+  --primary-a8: var(--blue-a8);
+  --primary-a9: var(--blue-a9);
+  --primary-a10: var(--blue-a10);
+  --primary-a11: var(--blue-a11);
+  --primary-a12: var(--blue-a12);
+
+  --primary-contrast: var(--blue-contrast);
+  --primary-surface: var(--blue-surface);
+  --primary-indicator: var(--blue-indicator);
+  --primary-track: var(--blue-track);
+}
+
+[data-secondary="blue"] {
+  --secondary-1: var(--blue-1);
+  --secondary-2: var(--blue-2);
+  --secondary-3: var(--blue-3);
+  --secondary-4: var(--blue-4);
+  --secondary-5: var(--blue-5);
+  --secondary-6: var(--blue-6);
+  --secondary-7: var(--blue-7);
+  --secondary-8: var(--blue-8);
+  --secondary-9: var(--blue-9);
+  --secondary-10: var(--blue-10);
+  --secondary-11: var(--blue-11);
+  --secondary-12: var(--blue-12);
+
+  --secondary-a1: var(--blue-a1);
+  --secondary-a2: var(--blue-a2);
+  --secondary-a3: var(--blue-a3);
+  --secondary-a4: var(--blue-a4);
+  --secondary-a5: var(--blue-a5);
+  --secondary-a6: var(--blue-a6);
+  --secondary-a7: var(--blue-a7);
+  --secondary-a8: var(--blue-a8);
+  --secondary-a9: var(--blue-a9);
+  --secondary-a10: var(--blue-a10);
+  --secondary-a11: var(--blue-a11);
+  --secondary-a12: var(--blue-a12);
+
+  --secondary-contrast: var(--blue-contrast);
+  --secondary-surface: var(--blue-surface);
+  --secondary-indicator: var(--blue-indicator);
+  --secondary-track: var(--blue-track);
+}

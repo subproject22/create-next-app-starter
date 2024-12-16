@@ -1,0 +1,109 @@
+@import "@radix-ui/colors/cyan.css";
+@import "@radix-ui/colors/cyan-alpha.css";
+@import "@radix-ui/colors/cyan-dark.css";
+@import "@radix-ui/colors/cyan-dark-alpha.css";
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/colors/cyan.css */
+
+:root {
+  --cyan-contrast: #fff;
+}
+
+:root,
+.light,
+.light-theme {
+  --cyan-surface: #eff9facc;
+  --cyan-indicator: var(--cyan-9);
+  --cyan-track: var(--cyan-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --cyan-surface: color(display-p3 0.9412 0.9765 0.9804 / 0.8);
+    }
+  }
+}
+
+.dark,
+.dark-theme {
+  --cyan-surface: #11252d80;
+  --cyan-indicator: var(--cyan-9);
+  --cyan-track: var(--cyan-9);
+  @supports (color: color(display-p3 1 1 1)) {
+    @media (color-gamut: p3) {
+      --cyan-surface: color(display-p3 0.0784 0.1412 0.1725 / 0.5);
+    }
+  }
+}
+
+/* https://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/color.css#L308 */
+
+/* [data-primary="cyan"],
+[data-primary="cyan"].light,
+[data-primary="cyan"] .light,
+[data-primary="cyan"].dark,
+[data-primary="cyan"] .dark  */
+
+[data-primary="cyan"] {
+  --primary-1: var(--cyan-1);
+  --primary-2: var(--cyan-2);
+  --primary-3: var(--cyan-3);
+  --primary-4: var(--cyan-4);
+  --primary-5: var(--cyan-5);
+  --primary-6: var(--cyan-6);
+  --primary-7: var(--cyan-7);
+  --primary-8: var(--cyan-8);
+  --primary-9: var(--cyan-9);
+  --primary-10: var(--cyan-10);
+  --primary-11: var(--cyan-11);
+  --primary-12: var(--cyan-12);
+
+  --primary-a1: var(--cyan-a1);
+  --primary-a2: var(--cyan-a2);
+  --primary-a3: var(--cyan-a3);
+  --primary-a4: var(--cyan-a4);
+  --primary-a5: var(--cyan-a5);
+  --primary-a6: var(--cyan-a6);
+  --primary-a7: var(--cyan-a7);
+  --primary-a8: var(--cyan-a8);
+  --primary-a9: var(--cyan-a9);
+  --primary-a10: var(--cyan-a10);
+  --primary-a11: var(--cyan-a11);
+  --primary-a12: var(--cyan-a12);
+
+  --primary-contrast: var(--cyan-contrast);
+  --primary-surface: var(--cyan-surface);
+  --primary-indicator: var(--cyan-indicator);
+  --primary-track: var(--cyan-track);
+}
+
+[data-secondary="cyan"] {
+  --secondary-1: var(--cyan-1);
+  --secondary-2: var(--cyan-2);
+  --secondary-3: var(--cyan-3);
+  --secondary-4: var(--cyan-4);
+  --secondary-5: var(--cyan-5);
+  --secondary-6: var(--cyan-6);
+  --secondary-7: var(--cyan-7);
+  --secondary-8: var(--cyan-8);
+  --secondary-9: var(--cyan-9);
+  --secondary-10: var(--cyan-10);
+  --secondary-11: var(--cyan-11);
+  --secondary-12: var(--cyan-12);
+
+  --secondary-a1: var(--cyan-a1);
+  --secondary-a2: var(--cyan-a2);
+  --secondary-a3: var(--cyan-a3);
+  --secondary-a4: var(--cyan-a4);
+  --secondary-a5: var(--cyan-a5);
+  --secondary-a6: var(--cyan-a6);
+  --secondary-a7: var(--cyan-a7);
+  --secondary-a8: var(--cyan-a8);
+  --secondary-a9: var(--cyan-a9);
+  --secondary-a10: var(--cyan-a10);
+  --secondary-a11: var(--cyan-a11);
+  --secondary-a12: var(--cyan-a12);
+
+  --secondary-contrast: var(--cyan-contrast);
+  --secondary-surface: var(--cyan-surface);
+  --secondary-indicator: var(--cyan-indicator);
+  --secondary-track: var(--cyan-track);
+}
