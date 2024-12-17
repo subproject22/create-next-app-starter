@@ -28,7 +28,7 @@ export function ThemeProvider({
       colorModes={colorModes}
       primaryColors={primaryColors}
       // TODO: this should be replaced when user init with UIPub CLI
-      defaultPrimaryColor={primaryColors[4]}
+      defaultPrimaryColor={primaryColors[0]}
       secondaryColors={secondaryColors}
       defaultSecondaryColor={secondaryColors[0]}
       surfaceColors={surfaceColors}
