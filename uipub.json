@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dev.uipub.com/schema.json",
+  "_ui": "based-ui",
+  "theme": "default",
+  "rsc": true,
+  "tsx": true,
+  "_globalsCss": "src/app/globals.css",
+  "_rootLayouts": [
+    "src/app/layout.tsx"
+  ],
+  "_surfaceColor": "gray",
+  "_primaryColor": "tomato",
+  "_secondaryColor": false,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "src/app/globals.css",
+    "common": false,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  }
+}
