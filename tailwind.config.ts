@@ -1,7 +1,5 @@
 import type { Config } from "tailwindcss"
 
-import defaultThemePreset from "./tailwind-theme-preset"
-
 const sansFallback = `ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`
 const serifFallback = `ui-serif, Georgia, Cambria, "Times New Roman", Times, serif`
 
@@ -377,5 +375,4 @@ export default {
     },
   },
   plugins: [],
-  presets: [defaultThemePreset],
 } satisfies Config
