@@ -323,6 +323,39 @@
   --primary-track: var(--contrast-track);
 }
 
+[data-secondary="contrast"] {
+  --secondary-1: var(--contrast-1);
+  --secondary-2: var(--contrast-2);
+  --secondary-3: var(--contrast-3);
+  --secondary-4: var(--contrast-4);
+  --secondary-5: var(--contrast-5);
+  --secondary-6: var(--contrast-6);
+  --secondary-7: var(--contrast-7);
+  --secondary-8: var(--contrast-8);
+  --secondary-9: var(--contrast-9);
+  --secondary-10: var(--contrast-10);
+  --secondary-11: var(--contrast-11);
+  --secondary-12: var(--contrast-12);
+
+  --secondary-a1: var(--contrast-a1);
+  --secondary-a2: var(--contrast-a2);
+  --secondary-a3: var(--contrast-a3);
+  --secondary-a4: var(--contrast-a4);
+  --secondary-a5: var(--contrast-a5);
+  --secondary-a6: var(--contrast-a6);
+  --secondary-a7: var(--contrast-a7);
+  --secondary-a8: var(--contrast-a8);
+  --secondary-a9: var(--contrast-a9);
+  --secondary-a10: var(--contrast-a10);
+  --secondary-a11: var(--contrast-a11);
+  --secondary-a12: var(--contrast-a12);
+
+  --secondary-contrast: var(--contrast-contrast);
+  --secondary-surface: var(--contrast-surface);
+  --secondary-indicator: var(--contrast-indicator);
+  --secondary-track: var(--contrast-track);
+}
+
 [data-surface="contrast"] {
   --surface-1: var(--contrast-surface-1);
   --surface-2: var(--contrast-surface-2);

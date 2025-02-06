@@ -23,7 +23,7 @@
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
 
-  --letter-spacing-base: 0em;
+  --letter-spacing-base: 10em;
   --letter-spacing-step: 0.00125em;
 
   --letter-spacing-1: calc(

@@ -5,6 +5,28 @@ import { UIPubLogo } from "@/components/uipub-logo"
 
 import { cn } from "@/lib/utils/ui"
 
+const tailwindColors = [
+  "red",
+  "orange",
+  "amber",
+  "yellow",
+  "lime",
+  "green",
+  "emerald",
+  "teal",
+  "cyan",
+  "sky",
+  "blue",
+  "indigo",
+  "violet",
+  "purple",
+  "fuchsia",
+  "pink",
+  "rose",
+]
+
+const tailwindSurfaceColors = ["slate", "gray", "zinc", "neutral", "stone"]
+
 const links = [
   {
     href: "https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app",
@@ -54,14 +76,24 @@ export default function Home() {
               "flex flex-col gap-2",
             )}
           >
-            <li>
+            <li
+              // data-color-system="radix"
+              // data-primary="tomato"
+              className="text-semantic"
+            >
               Get started by editing{" "}
               <code className="bg-surface-3 px-2 py-0.5 rounded font-semibold">
                 src/app/page.tsx
               </code>
               .
             </li>
-            <li>Save and see your changes instantly.</li>
+            <li
+              // data-color-system="tailwind"
+              className="text-semantic"
+              // data-primary="emerald"
+            >
+              Save and see your changes instantly.
+            </li>
           </ol>
 
           <div className="flex gap-4 items-center flex-col sm:flex-row">

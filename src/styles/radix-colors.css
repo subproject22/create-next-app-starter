@@ -1,0 +1,53 @@
+/***********************************/
+/* Remove any unused color imports */
+/***********************************/
+
+/* --black-a[1-12] variables */
+
+@import "@radix-ui/colors/black-alpha.css";
+
+/* --white-a[1-12] variables */
+
+@import "@radix-ui/colors/white-alpha.css";
+
+/* Primary & Secondary */
+/* --{color}-[1-12] variables */
+/* --{color}-a[1-12] variables */
+
+@import "./radix-colors/tomato.css";
+@import "./radix-colors/red.css";
+@import "./radix-colors/ruby.css";
+@import "./radix-colors/crimson.css";
+@import "./radix-colors/pink.css";
+@import "./radix-colors/plum.css";
+@import "./radix-colors/purple.css";
+@import "./radix-colors/violet.css";
+@import "./radix-colors/iris.css";
+@import "./radix-colors/indigo.css";
+@import "./radix-colors/blue.css";
+@import "./radix-colors/cyan.css";
+@import "./radix-colors/teal.css";
+@import "./radix-colors/jade.css";
+@import "./radix-colors/green.css";
+@import "./radix-colors/grass.css";
+@import "./radix-colors/bronze.css";
+@import "./radix-colors/gold.css";
+@import "./radix-colors/brown.css";
+@import "./radix-colors/orange.css";
+@import "./radix-colors/amber.css";
+@import "./radix-colors/yellow.css";
+@import "./radix-colors/lime.css";
+@import "./radix-colors/mint.css";
+@import "./radix-colors/sky.css";
+
+/* Surface */
+/* --{color}-[1-12] variables */
+/* --{color}-a[1-12] variables */
+
+@import "./radix-colors/gray.css";
+@import "./radix-colors/mauve.css";
+@import "./radix-colors/slate.css";
+@import "./radix-colors/sage.css";
+@import "./radix-colors/olive.css";
+@import "./radix-colors/sand.css";
+@import "./radix-colors/contrast.css";

@@ -51,8 +51,9 @@ export default function RootLayout({
       suppressHydrationWarning
       lang="en"
       className={cn(geistSans.variable, geistMono.variable)}
+      data-color-system="radix"
     >
-      <body>
+      <body className="custom-scrollbar custom-selection">
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
