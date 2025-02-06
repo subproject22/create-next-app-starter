@@ -35,67 +35,67 @@
 }
 
 [data-primary="tomato"] {
-  --primary-1: var(--tomato-1);
-  --primary-2: var(--tomato-2);
-  --primary-3: var(--tomato-3);
-  --primary-4: var(--tomato-4);
-  --primary-5: var(--tomato-5);
-  --primary-6: var(--tomato-6);
-  --primary-7: var(--tomato-7);
-  --primary-8: var(--tomato-8);
-  --primary-9: var(--tomato-9);
-  --primary-10: var(--tomato-10);
-  --primary-11: var(--tomato-11);
-  --primary-12: var(--tomato-12);
+  --color-primary-1: var(--tomato-1);
+  --color-primary-2: var(--tomato-2);
+  --color-primary-3: var(--tomato-3);
+  --color-primary-4: var(--tomato-4);
+  --color-primary-5: var(--tomato-5);
+  --color-primary-6: var(--tomato-6);
+  --color-primary-7: var(--tomato-7);
+  --color-primary-8: var(--tomato-8);
+  --color-primary-9: var(--tomato-9);
+  --color-primary-10: var(--tomato-10);
+  --color-primary-11: var(--tomato-11);
+  --color-primary-12: var(--tomato-12);
 
-  --primary-a1: var(--tomato-a1);
-  --primary-a2: var(--tomato-a2);
-  --primary-a3: var(--tomato-a3);
-  --primary-a4: var(--tomato-a4);
-  --primary-a5: var(--tomato-a5);
-  --primary-a6: var(--tomato-a6);
-  --primary-a7: var(--tomato-a7);
-  --primary-a8: var(--tomato-a8);
-  --primary-a9: var(--tomato-a9);
-  --primary-a10: var(--tomato-a10);
-  --primary-a11: var(--tomato-a11);
-  --primary-a12: var(--tomato-a12);
+  --color-primary-a1: var(--tomato-a1);
+  --color-primary-a2: var(--tomato-a2);
+  --color-primary-a3: var(--tomato-a3);
+  --color-primary-a4: var(--tomato-a4);
+  --color-primary-a5: var(--tomato-a5);
+  --color-primary-a6: var(--tomato-a6);
+  --color-primary-a7: var(--tomato-a7);
+  --color-primary-a8: var(--tomato-a8);
+  --color-primary-a9: var(--tomato-a9);
+  --color-primary-a10: var(--tomato-a10);
+  --color-primary-a11: var(--tomato-a11);
+  --color-primary-a12: var(--tomato-a12);
 
-  --primary-contrast: var(--tomato-contrast);
-  --primary-surface: var(--tomato-surface);
-  --primary-indicator: var(--tomato-indicator);
-  --primary-track: var(--tomato-track);
+  --color-primary-contrast: var(--tomato-contrast);
+  --color-primary-surface: var(--tomato-surface);
+  --color-primary-indicator: var(--tomato-indicator);
+  --color-primary-track: var(--tomato-track);
 }
 
 [data-secondary="tomato"] {
-  --secondary-1: var(--tomato-1);
-  --secondary-2: var(--tomato-2);
-  --secondary-3: var(--tomato-3);
-  --secondary-4: var(--tomato-4);
-  --secondary-5: var(--tomato-5);
-  --secondary-6: var(--tomato-6);
-  --secondary-7: var(--tomato-7);
-  --secondary-8: var(--tomato-8);
-  --secondary-9: var(--tomato-9);
-  --secondary-10: var(--tomato-10);
-  --secondary-11: var(--tomato-11);
-  --secondary-12: var(--tomato-12);
+  --color-secondary-1: var(--tomato-1);
+  --color-secondary-2: var(--tomato-2);
+  --color-secondary-3: var(--tomato-3);
+  --color-secondary-4: var(--tomato-4);
+  --color-secondary-5: var(--tomato-5);
+  --color-secondary-6: var(--tomato-6);
+  --color-secondary-7: var(--tomato-7);
+  --color-secondary-8: var(--tomato-8);
+  --color-secondary-9: var(--tomato-9);
+  --color-secondary-10: var(--tomato-10);
+  --color-secondary-11: var(--tomato-11);
+  --color-secondary-12: var(--tomato-12);
 
-  --secondary-a1: var(--tomato-a1);
-  --secondary-a2: var(--tomato-a2);
-  --secondary-a3: var(--tomato-a3);
-  --secondary-a4: var(--tomato-a4);
-  --secondary-a5: var(--tomato-a5);
-  --secondary-a6: var(--tomato-a6);
-  --secondary-a7: var(--tomato-a7);
-  --secondary-a8: var(--tomato-a8);
-  --secondary-a9: var(--tomato-a9);
-  --secondary-a10: var(--tomato-a10);
-  --secondary-a11: var(--tomato-a11);
-  --secondary-a12: var(--tomato-a12);
+  --color-secondary-a1: var(--tomato-a1);
+  --color-secondary-a2: var(--tomato-a2);
+  --color-secondary-a3: var(--tomato-a3);
+  --color-secondary-a4: var(--tomato-a4);
+  --color-secondary-a5: var(--tomato-a5);
+  --color-secondary-a6: var(--tomato-a6);
+  --color-secondary-a7: var(--tomato-a7);
+  --color-secondary-a8: var(--tomato-a8);
+  --color-secondary-a9: var(--tomato-a9);
+  --color-secondary-a10: var(--tomato-a10);
+  --color-secondary-a11: var(--tomato-a11);
+  --color-secondary-a12: var(--tomato-a12);
 
-  --secondary-contrast: var(--tomato-contrast);
-  --secondary-surface: var(--tomato-surface);
-  --secondary-indicator: var(--tomato-indicator);
-  --secondary-track: var(--tomato-track);
+  --color-secondary-contrast: var(--tomato-contrast);
+  --color-secondary-surface: var(--tomato-surface);
+  --color-secondary-indicator: var(--tomato-indicator);
+  --color-secondary-track: var(--tomato-track);
 }

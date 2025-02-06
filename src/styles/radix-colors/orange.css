@@ -35,67 +35,67 @@
 }
 
 [data-primary="orange"] {
-  --primary-1: var(--orange-1);
-  --primary-2: var(--orange-2);
-  --primary-3: var(--orange-3);
-  --primary-4: var(--orange-4);
-  --primary-5: var(--orange-5);
-  --primary-6: var(--orange-6);
-  --primary-7: var(--orange-7);
-  --primary-8: var(--orange-8);
-  --primary-9: var(--orange-9);
-  --primary-10: var(--orange-10);
-  --primary-11: var(--orange-11);
-  --primary-12: var(--orange-12);
+  --color-primary-1: var(--orange-1);
+  --color-primary-2: var(--orange-2);
+  --color-primary-3: var(--orange-3);
+  --color-primary-4: var(--orange-4);
+  --color-primary-5: var(--orange-5);
+  --color-primary-6: var(--orange-6);
+  --color-primary-7: var(--orange-7);
+  --color-primary-8: var(--orange-8);
+  --color-primary-9: var(--orange-9);
+  --color-primary-10: var(--orange-10);
+  --color-primary-11: var(--orange-11);
+  --color-primary-12: var(--orange-12);
 
-  --primary-a1: var(--orange-a1);
-  --primary-a2: var(--orange-a2);
-  --primary-a3: var(--orange-a3);
-  --primary-a4: var(--orange-a4);
-  --primary-a5: var(--orange-a5);
-  --primary-a6: var(--orange-a6);
-  --primary-a7: var(--orange-a7);
-  --primary-a8: var(--orange-a8);
-  --primary-a9: var(--orange-a9);
-  --primary-a10: var(--orange-a10);
-  --primary-a11: var(--orange-a11);
-  --primary-a12: var(--orange-a12);
+  --color-primary-a1: var(--orange-a1);
+  --color-primary-a2: var(--orange-a2);
+  --color-primary-a3: var(--orange-a3);
+  --color-primary-a4: var(--orange-a4);
+  --color-primary-a5: var(--orange-a5);
+  --color-primary-a6: var(--orange-a6);
+  --color-primary-a7: var(--orange-a7);
+  --color-primary-a8: var(--orange-a8);
+  --color-primary-a9: var(--orange-a9);
+  --color-primary-a10: var(--orange-a10);
+  --color-primary-a11: var(--orange-a11);
+  --color-primary-a12: var(--orange-a12);
 
-  --primary-contrast: var(--orange-contrast);
-  --primary-surface: var(--orange-surface);
-  --primary-indicator: var(--orange-indicator);
-  --primary-track: var(--orange-track);
+  --color-primary-contrast: var(--orange-contrast);
+  --color-primary-surface: var(--orange-surface);
+  --color-primary-indicator: var(--orange-indicator);
+  --color-primary-track: var(--orange-track);
 }
 
 [data-secondary="orange"] {
-  --secondary-1: var(--orange-1);
-  --secondary-2: var(--orange-2);
-  --secondary-3: var(--orange-3);
-  --secondary-4: var(--orange-4);
-  --secondary-5: var(--orange-5);
-  --secondary-6: var(--orange-6);
-  --secondary-7: var(--orange-7);
-  --secondary-8: var(--orange-8);
-  --secondary-9: var(--orange-9);
-  --secondary-10: var(--orange-10);
-  --secondary-11: var(--orange-11);
-  --secondary-12: var(--orange-12);
+  --color-secondary-1: var(--orange-1);
+  --color-secondary-2: var(--orange-2);
+  --color-secondary-3: var(--orange-3);
+  --color-secondary-4: var(--orange-4);
+  --color-secondary-5: var(--orange-5);
+  --color-secondary-6: var(--orange-6);
+  --color-secondary-7: var(--orange-7);
+  --color-secondary-8: var(--orange-8);
+  --color-secondary-9: var(--orange-9);
+  --color-secondary-10: var(--orange-10);
+  --color-secondary-11: var(--orange-11);
+  --color-secondary-12: var(--orange-12);
 
-  --secondary-a1: var(--orange-a1);
-  --secondary-a2: var(--orange-a2);
-  --secondary-a3: var(--orange-a3);
-  --secondary-a4: var(--orange-a4);
-  --secondary-a5: var(--orange-a5);
-  --secondary-a6: var(--orange-a6);
-  --secondary-a7: var(--orange-a7);
-  --secondary-a8: var(--orange-a8);
-  --secondary-a9: var(--orange-a9);
-  --secondary-a10: var(--orange-a10);
-  --secondary-a11: var(--orange-a11);
-  --secondary-a12: var(--orange-a12);
+  --color-secondary-a1: var(--orange-a1);
+  --color-secondary-a2: var(--orange-a2);
+  --color-secondary-a3: var(--orange-a3);
+  --color-secondary-a4: var(--orange-a4);
+  --color-secondary-a5: var(--orange-a5);
+  --color-secondary-a6: var(--orange-a6);
+  --color-secondary-a7: var(--orange-a7);
+  --color-secondary-a8: var(--orange-a8);
+  --color-secondary-a9: var(--orange-a9);
+  --color-secondary-a10: var(--orange-a10);
+  --color-secondary-a11: var(--orange-a11);
+  --color-secondary-a12: var(--orange-a12);
 
-  --secondary-contrast: var(--orange-contrast);
-  --secondary-surface: var(--orange-surface);
-  --secondary-indicator: var(--orange-indicator);
-  --secondary-track: var(--orange-track);
+  --color-secondary-contrast: var(--orange-contrast);
+  --color-secondary-surface: var(--orange-surface);
+  --color-secondary-indicator: var(--orange-indicator);
+  --color-secondary-track: var(--orange-track);
 }

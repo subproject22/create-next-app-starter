@@ -35,38 +35,38 @@
 }
 
 [data-surface="sage"] {
-  --surface-1: var(--sage-1);
-  --surface-2: var(--sage-2);
-  --surface-3: var(--sage-3);
-  --surface-4: var(--sage-4);
-  --surface-5: var(--sage-5);
-  --surface-6: var(--sage-6);
-  --surface-7: var(--sage-7);
-  --surface-8: var(--sage-8);
-  --surface-9: var(--sage-9);
-  --surface-10: var(--sage-10);
-  --surface-11: var(--sage-11);
-  --surface-12: var(--sage-12);
+  --color-surface-1: var(--sage-1);
+  --color-surface-2: var(--sage-2);
+  --color-surface-3: var(--sage-3);
+  --color-surface-4: var(--sage-4);
+  --color-surface-5: var(--sage-5);
+  --color-surface-6: var(--sage-6);
+  --color-surface-7: var(--sage-7);
+  --color-surface-8: var(--sage-8);
+  --color-surface-9: var(--sage-9);
+  --color-surface-10: var(--sage-10);
+  --color-surface-11: var(--sage-11);
+  --color-surface-12: var(--sage-12);
 
-  --surface-a1: var(--sage-a1);
-  --surface-a2: var(--sage-a2);
-  --surface-a3: var(--sage-a3);
-  --surface-a4: var(--sage-a4);
-  --surface-a5: var(--sage-a5);
-  --surface-a6: var(--sage-a6);
-  --surface-a7: var(--sage-a7);
-  --surface-a8: var(--sage-a8);
-  --surface-a9: var(--sage-a9);
-  --surface-a10: var(--sage-a10);
-  --surface-a11: var(--sage-a11);
-  --surface-a12: var(--sage-a12);
+  --color-surface-a1: var(--sage-a1);
+  --color-surface-a2: var(--sage-a2);
+  --color-surface-a3: var(--sage-a3);
+  --color-surface-a4: var(--sage-a4);
+  --color-surface-a5: var(--sage-a5);
+  --color-surface-a6: var(--sage-a6);
+  --color-surface-a7: var(--sage-a7);
+  --color-surface-a8: var(--sage-a8);
+  --color-surface-a9: var(--sage-a9);
+  --color-surface-a10: var(--sage-a10);
+  --color-surface-a11: var(--sage-a11);
+  --color-surface-a12: var(--sage-a12);
 
-  --surface-contrast: var(--sage-contrast);
-  --surface-surface: var(--sage-surface);
-  --surface-indicator: var(--sage-indicator);
-  --surface-track: var(--sage-track);
+  --color-surface-contrast: var(--sage-contrast);
+  --color-surface-surface: var(--sage-surface);
+  --color-surface-indicator: var(--sage-indicator);
+  --color-surface-track: var(--sage-track);
 
   /* TODO: replace this with hack from ui.pub */
-  --border-color: var(--surface-a3);
-  --shadow-color: var(--surface-a2);
+  --border-color: var(--color-surface-a3);
+  --shadow-color: var(--color-surface-a2);
 }

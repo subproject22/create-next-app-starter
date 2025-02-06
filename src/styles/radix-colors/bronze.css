@@ -35,67 +35,67 @@
 }
 
 [data-primary="bronze"] {
-  --primary-1: var(--bronze-1);
-  --primary-2: var(--bronze-2);
-  --primary-3: var(--bronze-3);
-  --primary-4: var(--bronze-4);
-  --primary-5: var(--bronze-5);
-  --primary-6: var(--bronze-6);
-  --primary-7: var(--bronze-7);
-  --primary-8: var(--bronze-8);
-  --primary-9: var(--bronze-9);
-  --primary-10: var(--bronze-10);
-  --primary-11: var(--bronze-11);
-  --primary-12: var(--bronze-12);
+  --color-primary-1: var(--bronze-1);
+  --color-primary-2: var(--bronze-2);
+  --color-primary-3: var(--bronze-3);
+  --color-primary-4: var(--bronze-4);
+  --color-primary-5: var(--bronze-5);
+  --color-primary-6: var(--bronze-6);
+  --color-primary-7: var(--bronze-7);
+  --color-primary-8: var(--bronze-8);
+  --color-primary-9: var(--bronze-9);
+  --color-primary-10: var(--bronze-10);
+  --color-primary-11: var(--bronze-11);
+  --color-primary-12: var(--bronze-12);
 
-  --primary-a1: var(--bronze-a1);
-  --primary-a2: var(--bronze-a2);
-  --primary-a3: var(--bronze-a3);
-  --primary-a4: var(--bronze-a4);
-  --primary-a5: var(--bronze-a5);
-  --primary-a6: var(--bronze-a6);
-  --primary-a7: var(--bronze-a7);
-  --primary-a8: var(--bronze-a8);
-  --primary-a9: var(--bronze-a9);
-  --primary-a10: var(--bronze-a10);
-  --primary-a11: var(--bronze-a11);
-  --primary-a12: var(--bronze-a12);
+  --color-primary-a1: var(--bronze-a1);
+  --color-primary-a2: var(--bronze-a2);
+  --color-primary-a3: var(--bronze-a3);
+  --color-primary-a4: var(--bronze-a4);
+  --color-primary-a5: var(--bronze-a5);
+  --color-primary-a6: var(--bronze-a6);
+  --color-primary-a7: var(--bronze-a7);
+  --color-primary-a8: var(--bronze-a8);
+  --color-primary-a9: var(--bronze-a9);
+  --color-primary-a10: var(--bronze-a10);
+  --color-primary-a11: var(--bronze-a11);
+  --color-primary-a12: var(--bronze-a12);
 
-  --primary-contrast: var(--bronze-contrast);
-  --primary-surface: var(--bronze-surface);
-  --primary-indicator: var(--bronze-indicator);
-  --primary-track: var(--bronze-track);
+  --color-primary-contrast: var(--bronze-contrast);
+  --color-primary-surface: var(--bronze-surface);
+  --color-primary-indicator: var(--bronze-indicator);
+  --color-primary-track: var(--bronze-track);
 }
 
 [data-secondary="bronze"] {
-  --secondary-1: var(--bronze-1);
-  --secondary-2: var(--bronze-2);
-  --secondary-3: var(--bronze-3);
-  --secondary-4: var(--bronze-4);
-  --secondary-5: var(--bronze-5);
-  --secondary-6: var(--bronze-6);
-  --secondary-7: var(--bronze-7);
-  --secondary-8: var(--bronze-8);
-  --secondary-9: var(--bronze-9);
-  --secondary-10: var(--bronze-10);
-  --secondary-11: var(--bronze-11);
-  --secondary-12: var(--bronze-12);
+  --color-secondary-1: var(--bronze-1);
+  --color-secondary-2: var(--bronze-2);
+  --color-secondary-3: var(--bronze-3);
+  --color-secondary-4: var(--bronze-4);
+  --color-secondary-5: var(--bronze-5);
+  --color-secondary-6: var(--bronze-6);
+  --color-secondary-7: var(--bronze-7);
+  --color-secondary-8: var(--bronze-8);
+  --color-secondary-9: var(--bronze-9);
+  --color-secondary-10: var(--bronze-10);
+  --color-secondary-11: var(--bronze-11);
+  --color-secondary-12: var(--bronze-12);
 
-  --secondary-a1: var(--bronze-a1);
-  --secondary-a2: var(--bronze-a2);
-  --secondary-a3: var(--bronze-a3);
-  --secondary-a4: var(--bronze-a4);
-  --secondary-a5: var(--bronze-a5);
-  --secondary-a6: var(--bronze-a6);
-  --secondary-a7: var(--bronze-a7);
-  --secondary-a8: var(--bronze-a8);
-  --secondary-a9: var(--bronze-a9);
-  --secondary-a10: var(--bronze-a10);
-  --secondary-a11: var(--bronze-a11);
-  --secondary-a12: var(--bronze-a12);
+  --color-secondary-a1: var(--bronze-a1);
+  --color-secondary-a2: var(--bronze-a2);
+  --color-secondary-a3: var(--bronze-a3);
+  --color-secondary-a4: var(--bronze-a4);
+  --color-secondary-a5: var(--bronze-a5);
+  --color-secondary-a6: var(--bronze-a6);
+  --color-secondary-a7: var(--bronze-a7);
+  --color-secondary-a8: var(--bronze-a8);
+  --color-secondary-a9: var(--bronze-a9);
+  --color-secondary-a10: var(--bronze-a10);
+  --color-secondary-a11: var(--bronze-a11);
+  --color-secondary-a12: var(--bronze-a12);
 
-  --secondary-contrast: var(--bronze-contrast);
-  --secondary-surface: var(--bronze-surface);
-  --secondary-indicator: var(--bronze-indicator);
-  --secondary-track: var(--bronze-track);
+  --color-secondary-contrast: var(--bronze-contrast);
+  --color-secondary-surface: var(--bronze-surface);
+  --color-secondary-indicator: var(--bronze-indicator);
+  --color-secondary-track: var(--bronze-track);
 }

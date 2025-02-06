@@ -5,6 +5,8 @@ import { useEffect, useState } from "react"
 import { useTheme } from "@uiui/theme-provider"
 import clsx from "clsx"
 
+const colorSystem = "radix"
+
 export default function ThemeSandbox() {
   const {
     colorMode,
@@ -73,6 +75,7 @@ export default function ThemeSandbox() {
               key={primaryColor}
               onClick={() => setPrimaryColor(primaryColor)}
               data-primary={primaryColor}
+              data-color-system={colorSystem}
               className={clsx(
                 "w-5 h-5 bg-semantic rounded-full",
                 primaryColor,

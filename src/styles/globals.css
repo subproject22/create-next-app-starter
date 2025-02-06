@@ -4,7 +4,7 @@
 @import "./theme.css" layer(theme);
 @import "./tokens.css" layer(theme);
 @import "./tailwind-colors.css" layer(theme);
-@import "./radix-colors.css";
+@import "./radix-colors.css" layer(theme);
 @import "./utility.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -14,15 +14,15 @@
 */
 @layer theme {
   /* Tailwind colors mapping */
-  [data-color-system="tailwind"][data-primary],
-  [data-color-system="tailwind"] [data-primary],
-  [data-primary] [data-color-system="tailwind"] {
-    --color-semantic: var(--primary-500);
+  [data-color-system="tailwind"][data-primary]
+  /* [data-color-system="tailwind"] [data-primary], */
+  /* [data-primary] [data-color-system="tailwind"]  */ {
+    --color-semantic: var(--color-primary-500);
   }
   /* Radix colors mapping */
-  [data-color-system="radix"][data-primary],
-  [data-color-system="radix"] [data-primary],
-  [data-primary] [data-color-system="radix"] {
-    --color-semantic: var(--primary-9);
+  [data-color-system="radix"][data-primary]
+  /* [data-color-system="radix"] [data-primary], */
+  /* [data-primary] [data-color-system="radix"]  */ {
+    --color-semantic: var(--color-primary-9);
   }
 }

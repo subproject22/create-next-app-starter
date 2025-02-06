@@ -77,8 +77,8 @@ export default function Home() {
             )}
           >
             <li
-              // data-color-system="radix"
-              // data-primary="tomato"
+              data-color-system="radix"
+              data-primary="tomato"
               className="text-semantic"
             >
               Get started by editing{" "}
@@ -88,9 +88,9 @@ export default function Home() {
               .
             </li>
             <li
-              // data-color-system="tailwind"
+              data-color-system="tailwind"
+              data-primary="emerald"
               className="text-semantic"
-              // data-primary="emerald"
             >
               Save and see your changes instantly.
             </li>

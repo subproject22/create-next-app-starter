@@ -35,38 +35,38 @@
 }
 
 [data-surface="olive"] {
-  --surface-1: var(--olive-1);
-  --surface-2: var(--olive-2);
-  --surface-3: var(--olive-3);
-  --surface-4: var(--olive-4);
-  --surface-5: var(--olive-5);
-  --surface-6: var(--olive-6);
-  --surface-7: var(--olive-7);
-  --surface-8: var(--olive-8);
-  --surface-9: var(--olive-9);
-  --surface-10: var(--olive-10);
-  --surface-11: var(--olive-11);
-  --surface-12: var(--olive-12);
+  --color-surface-1: var(--olive-1);
+  --color-surface-2: var(--olive-2);
+  --color-surface-3: var(--olive-3);
+  --color-surface-4: var(--olive-4);
+  --color-surface-5: var(--olive-5);
+  --color-surface-6: var(--olive-6);
+  --color-surface-7: var(--olive-7);
+  --color-surface-8: var(--olive-8);
+  --color-surface-9: var(--olive-9);
+  --color-surface-10: var(--olive-10);
+  --color-surface-11: var(--olive-11);
+  --color-surface-12: var(--olive-12);
 
-  --surface-a1: var(--olive-a1);
-  --surface-a2: var(--olive-a2);
-  --surface-a3: var(--olive-a3);
-  --surface-a4: var(--olive-a4);
-  --surface-a5: var(--olive-a5);
-  --surface-a6: var(--olive-a6);
-  --surface-a7: var(--olive-a7);
-  --surface-a8: var(--olive-a8);
-  --surface-a9: var(--olive-a9);
-  --surface-a10: var(--olive-a10);
-  --surface-a11: var(--olive-a11);
-  --surface-a12: var(--olive-a12);
+  --color-surface-a1: var(--olive-a1);
+  --color-surface-a2: var(--olive-a2);
+  --color-surface-a3: var(--olive-a3);
+  --color-surface-a4: var(--olive-a4);
+  --color-surface-a5: var(--olive-a5);
+  --color-surface-a6: var(--olive-a6);
+  --color-surface-a7: var(--olive-a7);
+  --color-surface-a8: var(--olive-a8);
+  --color-surface-a9: var(--olive-a9);
+  --color-surface-a10: var(--olive-a10);
+  --color-surface-a11: var(--olive-a11);
+  --color-surface-a12: var(--olive-a12);
 
-  --surface-contrast: var(--olive-contrast);
-  --surface-surface: var(--olive-surface);
-  --surface-indicator: var(--olive-indicator);
-  --surface-track: var(--olive-track);
+  --color-surface-contrast: var(--olive-contrast);
+  --color-surface-surface: var(--olive-surface);
+  --color-surface-indicator: var(--olive-indicator);
+  --color-surface-track: var(--olive-track);
 
   /* TODO: replace this with hack from ui.pub */
-  --border-color: var(--surface-a3);
-  --shadow-color: var(--surface-a2);
+  --border-color: var(--color-surface-a3);
+  --shadow-color: var(--color-surface-a2);
 }
