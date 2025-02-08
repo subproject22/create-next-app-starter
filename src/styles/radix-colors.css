@@ -1,18 +1,14 @@
-/***********************************/
-/* Remove any unused color imports */
-/***********************************/
-
-/* --black-a[1-12] variables */
+/* 
+  WARNING: 
+  Keep this file unmodified unless you want to remove or modify a specific color. 
+  This file maps CSS variables and is intended solely for implementation purposes.
+  Necessary to support nested theming and a multi-color system.
+*/
 
 @import "@radix-ui/colors/black-alpha.css";
-
-/* --white-a[1-12] variables */
-
 @import "@radix-ui/colors/white-alpha.css";
 
 /* Primary & Secondary */
-/* --{color}-[1-12] variables */
-/* --{color}-a[1-12] variables */
 
 @import "./radix-colors/tomato.css";
 @import "./radix-colors/red.css";
@@ -41,8 +37,6 @@
 @import "./radix-colors/sky.css";
 
 /* Surface */
-/* --{color}-[1-12] variables */
-/* --{color}-a[1-12] variables */
 
 @import "./radix-colors/gray.css";
 @import "./radix-colors/mauve.css";

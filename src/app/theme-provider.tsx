@@ -2,13 +2,13 @@
 
 import React from "react"
 
-import { ThemeProvider as ThemeProviderBase } from "@uiui/theme-provider"
+import { ThemeProvider as ThemeProviderBase } from "@uipub/theme"
 
 import {
   colorModes,
-  primaryColors,
-  secondaryColors,
-  surfaceColors,
+  RADIX_PRIMARY_COLORS,
+  RADIX_SECONDARY_COLORS,
+  RADIX_SURFACE_COLORS,
 } from "@/lib/utils/ui/constants"
 
 // const colorModes = ["dark", "light"]
@@ -26,14 +26,16 @@ export function ThemeProvider({
     <ThemeProviderBase
       colorModeAttribute="class"
       colorModes={colorModes}
-      primaryColors={primaryColors}
+      primaryColors={RADIX_PRIMARY_COLORS}
       // TODO: this should be replaced when user init with UIPub CLI
-      defaultPrimaryColor={primaryColors[0]}
-      secondaryColors={secondaryColors}
-      defaultSecondaryColor={secondaryColors[0]}
-      surfaceColors={surfaceColors}
-      defaultSurfaceColor={surfaceColors[0]}
+      defaultPrimaryColor={RADIX_PRIMARY_COLORS[0]}
+      secondaryColors={RADIX_SECONDARY_COLORS}
+      defaultSecondaryColor={RADIX_SECONDARY_COLORS[0]}
+      surfaceColors={RADIX_SURFACE_COLORS}
+      defaultSurfaceColor={RADIX_SURFACE_COLORS[0]}
       disableTransitionOnChange
+      themes={["radix", "tailwind"]}
+      defaultTheme="radix"
     >
       {children}
     </ThemeProviderBase>

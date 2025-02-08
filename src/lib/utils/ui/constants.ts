@@ -1,8 +1,8 @@
-const colorModes = ["light", "dark"] as const
+export const colorModes = ["light", "dark"] as const
 
-const breakpoints = ["initial", "xs", "sm", "md", "lg", "xl"] as const
+export const breakpoints = ["initial", "xs", "sm", "md", "lg", "xl"] as const
 
-const radiuses = [
+export const radiuses = [
   "none",
   "xs",
   "sm",
@@ -14,11 +14,11 @@ const radiuses = [
   "full",
 ] as const
 
-const cornerSmoothingValues = [
+export const cornerSmoothingValues = [
   0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1,
 ] as const
 
-const primaryColors = [
+export const RADIX_PRIMARY_COLORS = [
   "contrast",
   "gray",
   "tomato",
@@ -48,9 +48,9 @@ const primaryColors = [
   "sky",
 ] as const
 
-const secondaryColors = primaryColors
+export const RADIX_SECONDARY_COLORS = RADIX_PRIMARY_COLORS
 
-const surfaceColors = [
+export const RADIX_SURFACE_COLORS = [
   "contrast",
   "gray",
   "mauve",
@@ -60,7 +60,7 @@ const surfaceColors = [
   "sand",
 ] as const
 
-const semanticColors = [
+export const RADIX_SEMANTIC_COLORS = [
   "primary",
   "secondary",
   "surface",
@@ -70,13 +70,32 @@ const semanticColors = [
   "danger",
 ] as const
 
-export {
-  colorModes,
-  breakpoints,
-  radiuses,
-  cornerSmoothingValues,
-  primaryColors,
-  secondaryColors,
-  surfaceColors,
-  semanticColors,
-}
+export const TAILWIND_PRIMARY_COLORS = [
+  "red",
+  "orange",
+  "amber",
+  "yellow",
+  "lime",
+  "green",
+  "emerald",
+  "teal",
+  "cyan",
+  "sky",
+  "blue",
+  "indigo",
+  "violet",
+  "purple",
+  "fuchsia",
+  "pink",
+  "rose",
+]
+
+export const TAILWIND_SECONDARY_COLORS = TAILWIND_PRIMARY_COLORS
+
+export const TAILWIND_SURFACE_COLORS = [
+  "slate",
+  "gray",
+  "zinc",
+  "neutral",
+  "stone",
+]

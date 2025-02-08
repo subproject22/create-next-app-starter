@@ -5,28 +5,6 @@ import { UIPubLogo } from "@/components/uipub-logo"
 
 import { cn } from "@/lib/utils/ui"
 
-const tailwindColors = [
-  "red",
-  "orange",
-  "amber",
-  "yellow",
-  "lime",
-  "green",
-  "emerald",
-  "teal",
-  "cyan",
-  "sky",
-  "blue",
-  "indigo",
-  "violet",
-  "purple",
-  "fuchsia",
-  "pink",
-  "rose",
-]
-
-const tailwindSurfaceColors = ["slate", "gray", "zinc", "neutral", "stone"]
-
 const links = [
   {
     href: "https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app",
@@ -76,23 +54,30 @@ export default function Home() {
               "flex flex-col gap-2",
             )}
           >
+            <li className="text-semantic">Paragraph with Semantic class</li>
+            <li className="text-primary-500">
+              Paragraph with Primary 500 class. Should be broken when Radix
+              theme
+            </li>
+            <li className="text-primary-9">
+              Paragraph with Primary 9 class. Should be broken when Tailwind
+              theme
+            </li>
             <li
-              data-color-system="radix"
+              data-theme="radix"
               data-primary="tomato"
               className="text-semantic"
             >
-              Get started by editing{" "}
-              <code className="bg-surface-3 px-2 py-0.5 rounded font-semibold">
-                src/app/page.tsx
-              </code>
-              .
+              Nested Radix theme with Tomato color and Semantic class (should be
+              ignored)
             </li>
             <li
-              data-color-system="tailwind"
+              data-theme="tailwind"
               data-primary="emerald"
               className="text-semantic"
             >
-              Save and see your changes instantly.
+              Nested Tailwind theme with Emerald color and Semantic class
+              (should be ignored)
             </li>
           </ol>
 

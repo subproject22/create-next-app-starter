@@ -1,3 +1,10 @@
+/* 
+  WARNING: 
+  Keep this file unmodified unless you want to remove or modify a specific color. 
+  This file maps CSS variables and is intended solely for implementation purposes.
+  Necessary to support nested theming and a multi-color system.
+*/
+
 [data-primary="red"] {
   --color-primary-50: var(--color-red-50);
   --color-primary-100: var(--color-red-100);
