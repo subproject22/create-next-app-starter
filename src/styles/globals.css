@@ -2,8 +2,7 @@
 
 @import "./theme.css" layer(theme);
 @import "./tokens.css" layer(theme);
-@import "./tailwind-colors.css" layer(theme);
-@import "./radix-colors.css" layer(theme);
+@import "./colors.css" layer(theme);
 @import "./base.css";
 @import "./utility.css";
 
@@ -13,16 +12,7 @@
   Mapping CSS variables to color system
 */
 @layer base {
-  /* Tailwind colors mapping */
-  [data-theme="tailwind"][data-primary]
-  /* [data-theme="tailwind"] [data-primary], */
-  /* [data-primary] [data-theme="tailwind"]  */ {
-    --color-semantic: var(--color-primary-500);
-  }
-  /* Radix colors mapping */
-  [data-theme="radix"][data-primary]
-  /* [data-theme="radix"] [data-primary], */
-  /* [data-primary] [data-theme="radix"]  */ {
+  [data-primary] {
     --color-semantic: var(--color-primary-9);
   }
 }

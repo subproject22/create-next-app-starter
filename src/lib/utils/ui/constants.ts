@@ -1,4 +1,4 @@
-export const colorModes = ["light", "dark"] as const
+export const COLOR_MODES = ["light", "dark"] as const
 
 export const breakpoints = ["initial", "xs", "sm", "md", "lg", "xl"] as const
 
@@ -18,7 +18,7 @@ export const cornerSmoothingValues = [
   0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1,
 ] as const
 
-export const RADIX_PRIMARY_COLORS = [
+export const PRIMARY_COLORS = [
   "contrast",
   "gray",
   "tomato",
@@ -48,9 +48,9 @@ export const RADIX_PRIMARY_COLORS = [
   "sky",
 ] as const
 
-export const RADIX_SECONDARY_COLORS = RADIX_PRIMARY_COLORS
+export const SECONDARY_COLORS = PRIMARY_COLORS
 
-export const RADIX_SURFACE_COLORS = [
+export const SURFACE_COLORS = [
   "contrast",
   "gray",
   "mauve",
@@ -60,7 +60,7 @@ export const RADIX_SURFACE_COLORS = [
   "sand",
 ] as const
 
-export const RADIX_SEMANTIC_COLORS = [
+export const SEMANTIC_COLORS = [
   "primary",
   "secondary",
   "surface",
@@ -69,33 +69,3 @@ export const RADIX_SEMANTIC_COLORS = [
   "warning",
   "danger",
 ] as const
-
-export const TAILWIND_PRIMARY_COLORS = [
-  "red",
-  "orange",
-  "amber",
-  "yellow",
-  "lime",
-  "green",
-  "emerald",
-  "teal",
-  "cyan",
-  "sky",
-  "blue",
-  "indigo",
-  "violet",
-  "purple",
-  "fuchsia",
-  "pink",
-  "rose",
-]
-
-export const TAILWIND_SECONDARY_COLORS = TAILWIND_PRIMARY_COLORS
-
-export const TAILWIND_SURFACE_COLORS = [
-  "slate",
-  "gray",
-  "zinc",
-  "neutral",
-  "stone",
-]
