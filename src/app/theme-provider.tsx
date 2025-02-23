@@ -1,33 +1,35 @@
 "use client"
 
 import React from "react"
-
 import { ThemeProvider as ThemeProviderBase } from "@uipub/theme"
 
-import {
-  COLOR_MODES,
-  PRIMARY_COLORS,
-  SECONDARY_COLORS,
-  SURFACE_COLORS,
-} from "@/lib/utils/ui/constants"
+const colorModes = ["dark","light"]
+
+const surfaceColors = ["contrast","gray","mauve","slate","sage","olive","sand"]
+const defaultSurfaceColor = "sand"
+
+const primaryColors = ["contrast","tomato","red","ruby","crimson","pink","plum","purple","violet","iris","indigo","blue","cyan","teal","jade","green","grass","bronze","gold","brown","orange","amber","yellow","lime","mint","sky"]
+const defaultPrimaryColor = "iris"
+
+const secondaryColors = ["contrast","tomato","red","ruby","crimson","plum","pink","purple","violet","iris","indigo","blue","cyan","teal","jade","green","grass","bronze","gold","brown","orange","amber","yellow","lime","mint","sky"]
+const defaultSecondaryColor = "yellow"
 
 export function ThemeProvider({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <ThemeProviderBase
       colorModeAttribute="class"
-      colorModes={COLOR_MODES}
-      primaryColors={PRIMARY_COLORS}
-      // TODO: this should be replaced when user init with UIPub CLI
-      defaultPrimaryColor={PRIMARY_COLORS[0]}
-      secondaryColors={SECONDARY_COLORS}
-      defaultSecondaryColor={SECONDARY_COLORS[0]}
-      surfaceColors={SURFACE_COLORS}
-      defaultSurfaceColor={SURFACE_COLORS[0]}
-      disableTransitionOnChange
+      colorModes={colorModes}
+      surfaceColors={surfaceColors}
+      defaultSurfaceColor={defaultSurfaceColor}
+      primaryColors={primaryColors}
+      defaultPrimaryColor={defaultPrimaryColor}
+      secondaryColors={secondaryColors}
+      defaultSecondaryColor={defaultSecondaryColor}
+      enableColorScheme={false}
     >
       {children}
     </ThemeProviderBase>

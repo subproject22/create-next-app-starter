@@ -1,18 +1,20 @@
 @import "tailwindcss";
-
-@import "./theme.css" layer(theme);
-@import "./tokens.css" layer(theme);
-@import "./colors.css" layer(theme);
-@import "./base.css";
-@import "./utility.css";
-
+@import "./theme/theme-variables.css";
+@import "./theme/tokens.css";
+@import "./theme/colors.css";
+@import "./theme/base.css";
+@import "./theme/utility.css";
+/* ---break--- */
 @custom-variant dark (&:where(.dark, .dark *));
-
-/* 
-  Mapping CSS variables to color system
-*/
-@layer base {
-  [data-primary] {
-    --color-semantic: var(--color-primary-9);
-  }
+/* ---break--- */
+:root {
+  --test-uipub-cssvars: hsl(0 0% 98%);
+}
+/* ---break--- */
+.dark {
+  --test-uipub-cssvars: hsl(240 5.9% 10%);
+}
+/* ---break--- */
+@theme inline {
+  --color-test-uipub-cssvars: var(--test-uipub-cssvars);
 }

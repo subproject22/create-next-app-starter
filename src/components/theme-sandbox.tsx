@@ -102,7 +102,7 @@ function ColorSwatch({
               data-primary={primaryColor}
               data-theme={theme}
               className={clsx(
-                "w-5 h-5 bg-semantic rounded-full",
+                "w-5 h-5 bg-primary-9 rounded-full",
                 primaryColor,
                 primaryColor === selectedPrimaryColor &&
                   "ring-1 ring-surface-12 ring-offset-1 ring-offset-surface-1",
