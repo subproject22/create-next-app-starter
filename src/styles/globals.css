@@ -5,6 +5,8 @@
 @import "./theme/base.css";
 @import "./theme/utility.css";
 /* ---break--- */
+@custom-variant light (&:where(.light, .light *));
+/* ---break--- */
 @custom-variant dark (&:where(.dark, .dark *));
 /* ---break--- */
 :root {

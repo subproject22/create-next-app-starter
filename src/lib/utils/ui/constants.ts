@@ -1,6 +1,6 @@
-const COLOR_MODES = ["light", "dark"] as const;
+const COLOR_MODES = ["light", "dark"] as const
 
-const BREAKPOINTS = ["initial", "xs", "sm", "md", "lg", "xl"] as const;
+const BREAKPOINTS = ["initial", "xs", "sm", "md", "lg", "xl"] as const
 
 const RADIUSES = [
   "none",
@@ -12,7 +12,7 @@ const RADIUSES = [
   "2xl",
   "3xl",
   "full",
-] as const;
+] as const
 
 const PRIMARY_COLORS = [
   "gray",
@@ -23,7 +23,7 @@ const PRIMARY_COLORS = [
   "pink",
   "plum",
   "purple",
-  "violet",  
+  "violet",
   "iris",
   "indigo",
   "blue",
@@ -41,18 +41,18 @@ const PRIMARY_COLORS = [
   "lime",
   "mint",
   "sky",
-] as const;
+] as const
 
-const SECONDARY_COLORS = PRIMARY_COLORS;
+const SECONDARY_COLORS = PRIMARY_COLORS
 
-const SURFACE_COLOR = [
+const SURFACE_COLORS = [
   "gray",
   "mauve",
   "slate",
   "sage",
   "olive",
   "sand",
-] as const;
+] as const
 
 const SEMANTIC_COLORS = [
   "surface",
@@ -62,7 +62,7 @@ const SEMANTIC_COLORS = [
   "info",
   "warning",
   "danger",
-] as const;
+] as const
 
 export {
   COLOR_MODES,
@@ -70,6 +70,6 @@ export {
   RADIUSES,
   PRIMARY_COLORS,
   SECONDARY_COLORS,
-  SURFACE_COLOR,
+  SURFACE_COLORS,
   SEMANTIC_COLORS,
-};
+}

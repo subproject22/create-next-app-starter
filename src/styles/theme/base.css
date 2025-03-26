@@ -31,6 +31,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     min-width: 360px;
+    overflow-x: hidden;
     font-synthesis: none;
     font-feature-settings: "liga" on,
       "dlig" on,
